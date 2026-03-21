@@ -1,0 +1,38 @@
+{
+  "newId": "69aca271421120390f0c757c",
+  "itemTplToClone": "59e0d99486f7744a32234762",
+  "parentId": "5485a8684bdc2da71d8b4567",
+  "handbookParentId": "5b47574386f77428ca22b33b",
+  "overrideProperties": {
+    "ExaminedByDefault": true,
+    "PenetrationPower": 37,
+    "Damage": 56,
+    "ammoAccr": 2,
+    "ammoRec": -3,
+    "DurabilityBurnModificator": 1.1,
+    "FragmentationChance": 0.15
+  },
+  "fleaPriceRoubles": 1111,
+  "handbookPriceRoubles": 1111,
+  "addCaliberToAllCloneLocations": true,
+  "staticAmmoProbability": 5,
+  "traderId": "698f904cd0fa772942d237c7",
+  "traderLoyaltyLevel": 1,
+  "unlimitedCount": true,
+  "stackObjectsCount": 99,
+  "barterScheme": [
+    {
+      "count": 1111,
+      "tpl": "5449016a4bdc2d6f028b456f"
+    }
+  ],
+  "locales": {
+    "en": {
+      "Name": "7.62×39 “Consigliere BP-M”",
+      "ShortName": "BP-M",
+      "Description": "A modified 7.62x39mm armor-piercing cartridge distributed through Tony's underground logistics network. Built from repurposed BP components and carefully sorted powder loads, these rounds prioritize consistent penetration and controllable automatic fire. While not produced in official military factories, their reliability and stopping power make them a favorite among organized security crews operating inside Tarkov."
+    }
+  },
+  "addToStaticAmmo": true,
+  "addToTraders": false
+}
