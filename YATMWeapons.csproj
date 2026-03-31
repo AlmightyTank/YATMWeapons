@@ -17,26 +17,29 @@
     <StaticWebAssetsEnabled>false</StaticWebAssetsEnabled>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="SPTarkov.Common" Version="4.0.11" />
-    <PackageReference Include="SPTarkov.DI" Version="4.0.11" />
-    <PackageReference Include="SPTarkov.Server.Core" Version="4.0.11" />
-    <PackageReference Include="CommonCore" Version="1.0.0" />
+    <PackageReference Include="SPTarkov.Common" Version="4.0.13" />
+    <PackageReference Include="SPTarkov.DI" Version="4.0.13" />
+    <PackageReference Include="SPTarkov.Server.Core" Version="4.0.13" />
+	<PackageReference Include="WTT-ServerCommonLib" Version="2.0.15" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="db\**">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
     <None Include="config\**" Exclude="config\**\*.cs">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <Content Remove="config\settings.json" />
     <None Include="package.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
   </ItemGroup>
+	<ItemGroup>
+		<Reference Include="CommonLibExtended">
+			<HintPath>..\..\SPT\SPT\user\mods\CommonLibExtended\CommonLibExtended.dll</HintPath>
+		</Reference>
+	</ItemGroup>
   <ItemGroup>
-    <Reference Include="CommonCore">
-      <HintPath>..\..\SPT\SPT\user\mods\CommonCore\CommonCore.dll</HintPath>
-    </Reference>
+    <None Update="config\settings.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
   <Target Name="PostBuild" AfterTargets="Build">

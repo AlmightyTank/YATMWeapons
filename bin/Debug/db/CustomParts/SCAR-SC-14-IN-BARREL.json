@@ -1,32 +1,33 @@
 {
-  "newId": "69ad79bb3c59b9887789c43a",
-  "itemTplToClone": "6183fd911cb55961fa0fdce9",
-  "parentId": "555ef6e44bdc2de9068b457e",
-  "handbookParentId": "5b5f75c686f774094242f19f",
-  "overrideProperties": {
-    "ExaminedByDefault": true,
-    "Recoil": -4,
-    "Ergonomics": -13,
-    "Slots": []
-  },
-  "fleaPriceRoubles": 24000,
-  "handbookPriceRoubles": 24000,
-  "copySlot": true,
-  "locales": {
-    "en": {
-      "Name": "FN SCAR-SC .300 Blackout 14 inch barrel",
-      "ShortName": "SCAR-SC 14\"",
-      "Description": "A 14 inch (355mm) barrel for the SCAR-SC platform chambered in .300 Blackout. The extended length improves velocity and stability compared to compact CQB barrels. Tony prefers this setup when he wants the SCAR platform to keep its punch while still benefiting from the versatility of the .300 Blackout cartridge."
-    }
-  },
-  "copySlotsInfo": [
-    {
-      "id": "618168b350224f204c1da4d8",
-      "newSlotName": "mod_muzzle"
+  "69ad79bb3c59b9887789c43a": {
+    "itemTplToClone": "6183fd911cb55961fa0fdce9",
+    "parentId": "555ef6e44bdc2de9068b457e",
+    "handbookParentId": "5b5f75c686f774094242f19f",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Recoil": -4,
+      "Ergonomics": -13,
+      "Slots": []
     },
-    {
-      "id": "6183fd9e8004cc50514c358f",
-      "newSlotName": "mod_sight_front"
-    }
-  ]
+    "fleaPriceRoubles": 24000,
+    "handbookPriceRoubles": 24000,
+    "copySlot": true,
+    "locales": {
+      "en": {
+        "Name": "FN SCAR-SC .300 Blackout 14 inch barrel",
+        "ShortName": "SCAR-SC 14\"",
+        "Description": "A 14 inch (355mm) barrel for the SCAR-SC platform chambered in .300 Blackout. The extended length improves velocity and stability compared to compact CQB barrels. Tony prefers this setup when he wants the SCAR platform to keep its punch while still benefiting from the versatility of the .300 Blackout cartridge."
+      }
+    },
+    "copySlotsInfo": [
+      {
+        "id": "618168b350224f204c1da4d8",
+        "newSlotName": "mod_muzzle"
+      },
+      {
+        "id": "6183fd9e8004cc50514c358f",
+        "newSlotName": "mod_sight_front"
+      }
+    ]
+  }
 }

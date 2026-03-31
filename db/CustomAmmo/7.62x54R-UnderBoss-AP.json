@@ -1,16 +1,16 @@
 {
-    "newId": "69aca8e0f36dffeecb5709bc",
+  "69aca8e0f36dffeecb5709bc": {
     "itemTplToClone": "560d61e84bdc2da74d8b4571",
     "parentId": "5485a8684bdc2da71d8b4567",
     "handbookParentId": "5b47574386f77428ca22b33b",
     "overrideProperties": {
-        "ExaminedByDefault": true,
-        "PenetrationPower": 49,
-        "Damage": 86,
-        "ammoAccr": 4,
-        "ammoRec": -5,
-        "DurabilityBurnModificator": 1.1,
-        "FragmentationChance": 0.2
+      "ExaminedByDefault": true,
+      "PenetrationPower": 49,
+      "Damage": 86,
+      "ammoAccr": 4,
+      "ammoRec": -5,
+      "DurabilityBurnModificator": 1.1,
+      "FragmentationChance": 0.2
     },
     "fleaPriceRoubles": 1364,
     "handbookPriceRoubles": 1364,
@@ -21,18 +21,19 @@
     "unlimitedCount": true,
     "stackObjectsCount": 99,
     "barterScheme": [
-        {
-            "count": 870,
-            "tpl": "5449016a4bdc2d6f028b456f"
-        }
+      {
+        "count": 870,
+        "tpl": "5449016a4bdc2d6f028b456f"
+      }
     ],
     "locales": {
-        "en": {
-            "Name": "7.62×54R “Underboss AP”",
-            "ShortName": "UB-AP",
-            "Description": "A specialized 7.62x54R armor-piercing cartridge reserved for Tony’s most trusted enforcers. Assembled from select military surplus components and tuned for precision rifles, these rounds deliver exceptional penetration and reliable long-range performance. Within Tony’s organization, ammunition like this is issued only to those trusted to settle problems permanently."
-        }
+      "en": {
+        "Name": "7.62×54R “Underboss AP”",
+        "ShortName": "UB-AP",
+        "Description": "A specialized 7.62x54R armor-piercing cartridge reserved for Tony’s most trusted enforcers. Assembled from select military surplus components and tuned for precision rifles, these rounds deliver exceptional penetration and reliable long-range performance. Within Tony’s organization, ammunition like this is issued only to those trusted to settle problems permanently."
+      }
     },
     "addToStaticAmmo": true,
     "addToTraders": false
+  }
 }

@@ -1,93 +1,94 @@
 {
-  "newId": "69ac9188ca2bb6b36fbcd58e",
-  "itemTplToClone": "5f2a9575926fd9352339381f",
-  "parentId": "5447b6194bdc2d67278b4567",
-  "handbookParentId": "5b5f78e986f77447ed5636b1",
-  "overrideProperties": {
-    "ExaminedByDefault": true,
-    "RecoilForceBack": 250,
-    "RecoilForceUp": 98,
-    "RecolDispersion": 9,
-    "DurabilityBurnRatio": 1.05,
-    "Ergonomics": 52,
-    "bFirerate": 750,
-    "weapFireType": [
-      "single",
-      "fullauto"
-    ]
-  },
-  "fleaPriceRoubles": 17500,
-  "handbookPriceRoubles": 12500,
-  "addWeaponPreset": true,
-  "locales": {
-    "en": {
-      "Name": "RFB \"Forward Fury\"",
-      "ShortName": "RFB FF",
-      "Description": "A Kel-Tec RFB bullpup rifle chambered in 7.62x51 NATO. Known for its unusual forward-ejection system and compact bullpup layout, the rifle was originally built as a semi-automatic precision platform. Tony saw something else hiding in the design. After extensive work in his workshop, the fire control group was rebuilt and the gas system tuned to run fully automatic. The result is a compact battle rifle that spits spent casings forward while dumping heavy .308 rounds downrange at an alarming rate. Tony admits it wasn't exactly designed for this — but that's half the fun."
-    }
-  },
-  "presets": [
-    {
-      "_changeWeaponName": false,
-      "_encyclopedia": "69ac9188ca2bb6b36fbcd58e",
-      "_id": "69ac900119b58d39f5e876d2",
-      "_name": "RFB FF Default",
-      "_parent": "69ac9188ca2bb6b36fbcd58e",
-      "_type": "Preset",
-      "_items": [
-        {
-          "_id": "69ac9188ca2bb6b36fbcd58e",
-          "_tpl": "69ac9188ca2bb6b36fbcd58e"
-        },
-        {
-          "_id": "69ac901f40f630ddc2c9a52b",
-          "_tpl": "5b099ac65acfc400186331e1",
-          "parentId": "69ac9188ca2bb6b36fbcd58e",
-          "slotId": "mod_magazine"
-        },
-        {
-          "_id": "69ac90236b5d30d543fabd8d",
-          "_tpl": "5f2aa46b878ef416f538b567",
-          "parentId": "69ac9188ca2bb6b36fbcd58e",
-          "slotId": "mod_barrel"
-        },
-        {
-          "_id": "69ac902b60dc16fa1e934b53",
-          "_tpl": "5f2aa4464b50c14bcf07acdb",
-          "parentId": "69ac90236b5d30d543fabd8d",
-          "slotId": "mod_muzzle"
-        },
-        {
-          "_id": "69ac9034f5d75b53bae7548c",
-          "_tpl": "5f2aa47a200e2c0ee46efa71",
-          "parentId": "69ac9188ca2bb6b36fbcd58e",
-          "slotId": "mod_handguard"
-        },
-        {
-          "_id": "69ac903a8b694cb9cacf443c",
-          "_tpl": "5f2aa493cd375f14e15eea72",
-          "parentId": "69ac9034f5d75b53bae7548c",
-          "slotId": "mod_mount_000"
-        },
-        {
-          "_id": "69ac903ffb3ae971c11ae1e6",
-          "_tpl": "5f2aa49f9b44de6b1b4e68d4",
-          "parentId": "69ac9188ca2bb6b36fbcd58e",
-          "slotId": "mod_mount"
-        },
-        {
-          "_id": "69ac9046ac275c7c37b975d4",
-          "_tpl": "5c1780312e221602b66cc189",
-          "parentId": "69ac903ffb3ae971c11ae1e6",
-          "slotId": "mod_sight_rear"
-        },
-        {
-          "_id": "69ac904d02dcd3bd79af53fc",
-          "_tpl": "5c17804b2e2216152006c02f",
-          "parentId": "69ac903ffb3ae971c11ae1e6",
-          "slotId": "mod_sight_front"
-        }
+  "69ac9188ca2bb6b36fbcd58e": {
+    "itemTplToClone": "5f2a9575926fd9352339381f",
+    "parentId": "5447b6194bdc2d67278b4567",
+    "handbookParentId": "5b5f78e986f77447ed5636b1",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "RecoilForceBack": 250,
+      "RecoilForceUp": 98,
+      "RecolDispersion": 9,
+      "DurabilityBurnRatio": 1.05,
+      "Ergonomics": 52,
+      "bFirerate": 750,
+      "weapFireType": [
+        "single",
+        "fullauto"
       ]
-    }
-  ]
+    },
+    "fleaPriceRoubles": 17500,
+    "handbookPriceRoubles": 12500,
+    "addToPreset": true,
+    "locales": {
+      "en": {
+        "Name": "RFB \"Forward Fury\"",
+        "ShortName": "RFB FF",
+        "Description": "A Kel-Tec RFB bullpup rifle chambered in 7.62x51 NATO. Known for its unusual forward-ejection system and compact bullpup layout, the rifle was originally built as a semi-automatic precision platform. Tony saw something else hiding in the design. After extensive work in his workshop, the fire control group was rebuilt and the gas system tuned to run fully automatic. The result is a compact battle rifle that spits spent casings forward while dumping heavy .308 rounds downrange at an alarming rate. Tony admits it wasn't exactly designed for this — but that's half the fun."
+      }
+    },
+    "presets": [
+      {
+        "_changeWeaponName": false,
+        "_encyclopedia": "69ac9188ca2bb6b36fbcd58e",
+        "_id": "69ac900119b58d39f5e876d2",
+        "_name": "RFB FF Default",
+        "_parent": "69ac9188ca2bb6b36fbcd58e",
+        "_type": "Preset",
+        "_items": [
+          {
+            "_id": "69ac9188ca2bb6b36fbcd58e",
+            "_tpl": "69ac9188ca2bb6b36fbcd58e"
+          },
+          {
+            "_id": "69ac901f40f630ddc2c9a52b",
+            "_tpl": "5b099ac65acfc400186331e1",
+            "parentId": "69ac9188ca2bb6b36fbcd58e",
+            "slotId": "mod_magazine"
+          },
+          {
+            "_id": "69ac90236b5d30d543fabd8d",
+            "_tpl": "5f2aa46b878ef416f538b567",
+            "parentId": "69ac9188ca2bb6b36fbcd58e",
+            "slotId": "mod_barrel"
+          },
+          {
+            "_id": "69ac902b60dc16fa1e934b53",
+            "_tpl": "5f2aa4464b50c14bcf07acdb",
+            "parentId": "69ac90236b5d30d543fabd8d",
+            "slotId": "mod_muzzle"
+          },
+          {
+            "_id": "69ac9034f5d75b53bae7548c",
+            "_tpl": "5f2aa47a200e2c0ee46efa71",
+            "parentId": "69ac9188ca2bb6b36fbcd58e",
+            "slotId": "mod_handguard"
+          },
+          {
+            "_id": "69ac903a8b694cb9cacf443c",
+            "_tpl": "5f2aa493cd375f14e15eea72",
+            "parentId": "69ac9034f5d75b53bae7548c",
+            "slotId": "mod_mount_000"
+          },
+          {
+            "_id": "69ac903ffb3ae971c11ae1e6",
+            "_tpl": "5f2aa49f9b44de6b1b4e68d4",
+            "parentId": "69ac9188ca2bb6b36fbcd58e",
+            "slotId": "mod_mount"
+          },
+          {
+            "_id": "69ac9046ac275c7c37b975d4",
+            "_tpl": "5c1780312e221602b66cc189",
+            "parentId": "69ac903ffb3ae971c11ae1e6",
+            "slotId": "mod_sight_rear"
+          },
+          {
+            "_id": "69ac904d02dcd3bd79af53fc",
+            "_tpl": "5c17804b2e2216152006c02f",
+            "parentId": "69ac903ffb3ae971c11ae1e6",
+            "slotId": "mod_sight_front"
+          }
+        ]
+      }
+    ]
+  }
 }

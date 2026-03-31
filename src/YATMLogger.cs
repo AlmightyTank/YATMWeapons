@@ -8,10 +8,10 @@ namespace YATMWeapons.src;
 public static class YATMLogger
 {
     private static string? _logPath;
-    private static bool _initialized = false;
+    private static bool _initialized = true;
     
     // [NEW] Global Debug Flag
-    public static bool IsDebugEnabled { get; set; } = false;
+    public static bool IsDebugEnabled { get; set; } = true;
 
     public static void Init(string modPath)
     {

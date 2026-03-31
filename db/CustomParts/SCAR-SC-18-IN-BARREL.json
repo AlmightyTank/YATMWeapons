@@ -1,32 +1,33 @@
 {
-  "newId": "69ad7b83bba47be59e5e9f58",
-  "itemTplToClone": "6183fd9e8004cc50514c358f",
-  "parentId": "555ef6e44bdc2de9068b457e",
-  "handbookParentId": "5b5f75c686f774094242f19f",
-  "overrideProperties": {
-    "ExaminedByDefault": true,
-    "Recoil": -6,
-    "Ergonomics": -19,
-    "Slots": []
-  },
-  "fleaPriceRoubles": 32000,
-  "handbookPriceRoubles": 32000,
-  "copySlot": true,
-  "locales": {
-    "en": {
-      "Name": "FN SCAR-SC .300 Blackout 18 inch barrel",
-      "ShortName": "SCAR-SC 18\"",
-      "Description": "An 18 inch (457mm) long barrel for the SCAR-SC platform chambered in .300 Blackout. Designed for operators who want improved velocity and range from the compact SCAR system while retaining compatibility with suppressors and modern tactical accessories."
-    }
-  },
-  "copySlotsInfo": [
-    {
-      "id": "618168b350224f204c1da4d8",
-      "newSlotName": "mod_muzzle"
+  "69ad7b83bba47be59e5e9f58": {
+    "itemTplToClone": "6183fd9e8004cc50514c358f",
+    "parentId": "555ef6e44bdc2de9068b457e",
+    "handbookParentId": "5b5f75c686f774094242f19f",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Recoil": -6,
+      "Ergonomics": -19,
+      "Slots": []
     },
-    {
-      "id": "6183fd9e8004cc50514c358f",
-      "newSlotName": "mod_sight_front"
-    }
-  ]
+    "fleaPriceRoubles": 32000,
+    "handbookPriceRoubles": 32000,
+    "copySlot": true,
+    "locales": {
+      "en": {
+        "Name": "FN SCAR-SC .300 Blackout 18 inch barrel",
+        "ShortName": "SCAR-SC 18\"",
+        "Description": "An 18 inch (457mm) long barrel for the SCAR-SC platform chambered in .300 Blackout. Designed for operators who want improved velocity and range from the compact SCAR system while retaining compatibility with suppressors and modern tactical accessories."
+      }
+    },
+    "copySlotsInfo": [
+      {
+        "id": "618168b350224f204c1da4d8",
+        "newSlotName": "mod_muzzle"
+      },
+      {
+        "id": "6183fd9e8004cc50514c358f",
+        "newSlotName": "mod_sight_front"
+      }
+    ]
+  }
 }

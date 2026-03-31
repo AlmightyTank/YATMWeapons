@@ -41,7 +41,6 @@ C:\SPTModding\YATMWeapons\bin\Debug\db\CustomWeapons\SVDSARB.json
 C:\SPTModding\YATMWeapons\bin\Debug\package.json
 C:\SPTModding\YATMWeapons\bin\Debug\YATMWeapons.dll
 C:\SPTModding\YATMWeapons\bin\Debug\YATMWeapons.pdb
-C:\SPTModding\YATMWeapons\bin\Debug\CommonCore.dll
 C:\SPTModding\YATMWeapons\obj\Debug\YATMWeapons.csproj.AssemblyReference.cache
 C:\SPTModding\YATMWeapons\obj\Debug\YATMWeapons.GeneratedMSBuildEditorConfig.editorconfig
 C:\SPTModding\YATMWeapons\obj\Debug\YATMWeapons.AssemblyInfoInputs.cache
@@ -52,3 +51,6 @@ C:\SPTModding\YATMWeapons\obj\Debug\YATMWeapons.dll
 C:\SPTModding\YATMWeapons\obj\Debug\refint\YATMWeapons.dll
 C:\SPTModding\YATMWeapons\obj\Debug\YATMWeapons.pdb
 C:\SPTModding\YATMWeapons\obj\Debug\ref\YATMWeapons.dll
+C:\SPTModding\YATMWeapons\obj\Debug\YATMWeapons.sourcelink.json
+C:\SPTModding\YATMWeapons\bin\Debug\config\settings.json
+C:\SPTModding\YATMWeapons\bin\Debug\CommonLibExtended.dll

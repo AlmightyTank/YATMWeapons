@@ -1,38 +1,39 @@
 {
-  "newId": "69ad76c7613e8435aac830e4",
-  "itemTplToClone": "6183fc15d3a39d50044c13e9",
-  "parentId": "555ef6e44bdc2de9068b457e",
-  "handbookParentId": "5b5f75c686f774094242f19f",
-  "overrideProperties": {
-    "ExaminedByDefault": true,
-    "Recoil": -2,
-    "Ergonomics": -5,
-    "ConflictingItems": [
-      "619666f4af1f5202c57a952d",
-      "66ffc6ceb7ff397142017c3a",
-      "66ffea456be19fd81e0ef742",
-      "66ffeab4ab3336cc01063833"
-    ],
-    "Slots": []
-  },
-  "fleaPriceRoubles": 30500,
-  "handbookPriceRoubles": 30500,
-  "copySlot": true,
-  "locales": {
-    "en": {
-      "Name": "FN SCAR-SC .300 Blackout 10 inch barrel",
-      "ShortName": "SCAR-SC 10\"",
-      "Description": "A 10 inch (254mm compact barrel for the SCAR-SC platform chambered in .300 Blackout. This shortened configuration favors suppressed operation and close-quarters engagements. Rifles assembled with this barrel are often seen in Tony's workshop builds, tuned for reliability and controllable automatic fire."
-    }
-  },
-  "copySlotsInfo": [
-    {
-      "id": "618168b350224f204c1da4d8",
-      "newSlotName": "mod_muzzle"
+  "69ad76c7613e8435aac830e4": {
+    "itemTplToClone": "6183fc15d3a39d50044c13e9",
+    "parentId": "555ef6e44bdc2de9068b457e",
+    "handbookParentId": "5b5f75c686f774094242f19f",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Recoil": -2,
+      "Ergonomics": -5,
+      "ConflictingItems": [
+        "619666f4af1f5202c57a952d",
+        "66ffc6ceb7ff397142017c3a",
+        "66ffea456be19fd81e0ef742",
+        "66ffeab4ab3336cc01063833"
+      ],
+      "Slots": []
     },
-    {
-      "id": "6183fd9e8004cc50514c358f",
-      "newSlotName": "mod_sight_front"
-    }
-  ]
+    "fleaPriceRoubles": 30500,
+    "handbookPriceRoubles": 30500,
+    "copySlot": true,
+    "locales": {
+      "en": {
+        "Name": "FN SCAR-SC .300 Blackout 10 inch barrel",
+        "ShortName": "SCAR-SC 10\"",
+        "Description": "A 10 inch (254mm compact barrel for the SCAR-SC platform chambered in .300 Blackout. This shortened configuration favors suppressed operation and close-quarters engagements. Rifles assembled with this barrel are often seen in Tony's workshop builds, tuned for reliability and controllable automatic fire."
+      }
+    },
+    "copySlotsInfo": [
+      {
+        "id": "618168b350224f204c1da4d8",
+        "newSlotName": "mod_muzzle"
+      },
+      {
+        "id": "6183fd9e8004cc50514c358f",
+        "newSlotName": "mod_sight_front"
+      }
+    ]
+  }
 }

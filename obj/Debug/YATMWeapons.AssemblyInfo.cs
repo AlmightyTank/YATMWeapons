@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("YATMWeapons")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("6.4.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("6.4.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("6.4.0+d942eb5ec34b1fbeea284eec7d1cd287636f178b")]
 [assembly: System.Reflection.AssemblyProductAttribute("YATMWeapons")]
 [assembly: System.Reflection.AssemblyTitleAttribute("YATMWeapons")]
 [assembly: System.Reflection.AssemblyVersionAttribute("6.4.0.0")]

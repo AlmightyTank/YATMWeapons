@@ -1,92 +1,93 @@
 {
-  "newId": "69ac37ebd05c3cf7e4542d12",
-  "itemTplToClone": "57c44b372459772d2b39b8ce",
-  "parentId": "5447b5fc4bdc2d87278b4567",
-  "handbookParentId": "5b5f78fc86f77409407a7f90",
-  "overrideProperties": {
-    "ExaminedByDefault": true,
-    "Ergonomics": 54,
-    "bEffDist": 700,
-    "CenterOfImpact": 0.01,
-    "AimPlane": 0.16,
-    "RecoilCamera": 0.043,
-    "RecoilForceBack": 210,
-    "RecoilForceUp": 50,
-    "RecolDispersion": 10,
-    "RecoilReturnPathDampingHandRotation": 0.4,
-    "DurabilityBurnRatio": 1.15,
-    "HeatFactorGun": 1,
-    "CoolFactorGun": 3.168,
-    "CoolFactorGunMods": 1,
-    "HeatFactorByShot": 1.235,
-    "MaxRepairKitDegradation": 0.025
-  },
-  "fleaPriceRoubles": 17500,
-  "handbookPriceRoubles": 12500,
-  "addWeaponPreset": true,
-  "locales": {
-    "en": {
-      "Name": "AS VAL \"Whisper Fang\"",
-      "ShortName": "AS VAL WF",
-      "Description": "Originally a silenced AS VAL, designed for special forces with stealth in mind. Tony couldn’t leave it stock — he refined the internals, tuned the gas system, and optimized the weapon for even smoother automatic fire. The integral suppressor remains, but now the rifle runs faster, more reliably, and hits harder in rapid succession. Tony calls it a 'silent predator' — quiet, deadly, and built for operators who want to dominate the shadows."
-    }
-  },
-  "presets": [
-    {
-      "_changeWeaponName": false,
-      "_encyclopedia": "69ac37ebd05c3cf7e4542d12",
-      "_id": "69ac37f9e878cc29b9235e9d",
-      "_name": "AS VAL WF Default",
-      "_parent": "69ac37ebd05c3cf7e4542d12",
-      "_type": "Preset",
-      "_items": [
-        {
-          "_id": "69ac37ebd05c3cf7e4542d12",
-          "_tpl": "69ac37ebd05c3cf7e4542d12"
-        },
-        {
-          "_id": "69ac381a1b4cfe28402d6be8",
-          "_tpl": "57c44dd02459772d2e0ae249",
-          "parentId": "69ac37ebd05c3cf7e4542d12",
-          "slotId": "mod_muzzle"
-        },
-        {
-          "_id": "69ac381f4a73897e73a229e2",
-          "_tpl": "57c44e7b2459772d28133248",
-          "parentId": "69ac381a1b4cfe28402d6be8",
-          "slotId": "mod_sight_rear"
-        },
-        {
-          "_id": "69ac38309ca7b985d0ba2b6e",
-          "_tpl": "57c44f4f2459772d2c627113",
-          "parentId": "69ac37ebd05c3cf7e4542d12",
-          "slotId": "mod_reciever"
-        },
-        {
-          "_id": "69ac38368df92da9a381ce6d",
-          "_tpl": "57838f9f2459774a150289a0",
-          "parentId": "69ac37ebd05c3cf7e4542d12",
-          "slotId": "mod_magazine"
-        },
-        {
-          "_id": "69ac383e24ee8eb4699e4c2d",
-          "_tpl": "57c44fa82459772d2d75e415",
-          "parentId": "69ac37ebd05c3cf7e4542d12",
-          "slotId": "mod_pistol_grip"
-        },
-        {
-          "_id": "69ac384304402145ed446962",
-          "_tpl": "57c450252459772d28133253",
-          "parentId": "69ac37ebd05c3cf7e4542d12",
-          "slotId": "mod_stock"
-        },
-        {
-          "_id": "66b092556f11600e4e48baf7",
-          "_tpl": "651178336cad06c37c049eb4",
-          "parentId": "69ac37ebd05c3cf7e4542d12",
-          "slotId": "mod_handguard"
-        }
-      ]
-    }
-  ]
+  "69ac37ebd05c3cf7e4542d12": {
+    "itemTplToClone": "57c44b372459772d2b39b8ce",
+    "parentId": "5447b5fc4bdc2d87278b4567",
+    "handbookParentId": "5b5f78fc86f77409407a7f90",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Ergonomics": 54,
+      "bEffDist": 700,
+      "CenterOfImpact": 0.01,
+      "AimPlane": 0.16,
+      "RecoilCamera": 0.043,
+      "RecoilForceBack": 210,
+      "RecoilForceUp": 50,
+      "RecolDispersion": 10,
+      "RecoilReturnPathDampingHandRotation": 0.4,
+      "DurabilityBurnRatio": 1.15,
+      "HeatFactorGun": 1,
+      "CoolFactorGun": 3.168,
+      "CoolFactorGunMods": 1,
+      "HeatFactorByShot": 1.235,
+      "MaxRepairKitDegradation": 0.025
+    },
+    "fleaPriceRoubles": 17500,
+    "handbookPriceRoubles": 12500,
+    "addToPreset": true,
+    "locales": {
+      "en": {
+        "Name": "AS VAL \"Whisper Fang\"",
+        "ShortName": "AS VAL WF",
+        "Description": "Originally a silenced AS VAL, designed for special forces with stealth in mind. Tony couldn’t leave it stock — he refined the internals, tuned the gas system, and optimized the weapon for even smoother automatic fire. The integral suppressor remains, but now the rifle runs faster, more reliably, and hits harder in rapid succession. Tony calls it a 'silent predator' — quiet, deadly, and built for operators who want to dominate the shadows."
+      }
+    },
+    "presets": [
+      {
+        "_changeWeaponName": false,
+        "_encyclopedia": "69ac37ebd05c3cf7e4542d12",
+        "_id": "69ac37f9e878cc29b9235e9d",
+        "_name": "AS VAL WF Default",
+        "_parent": "69ac37ebd05c3cf7e4542d12",
+        "_type": "Preset",
+        "_items": [
+          {
+            "_id": "69ac37ebd05c3cf7e4542d12",
+            "_tpl": "69ac37ebd05c3cf7e4542d12"
+          },
+          {
+            "_id": "69ac381a1b4cfe28402d6be8",
+            "_tpl": "57c44dd02459772d2e0ae249",
+            "parentId": "69ac37ebd05c3cf7e4542d12",
+            "slotId": "mod_muzzle"
+          },
+          {
+            "_id": "69ac381f4a73897e73a229e2",
+            "_tpl": "57c44e7b2459772d28133248",
+            "parentId": "69ac381a1b4cfe28402d6be8",
+            "slotId": "mod_sight_rear"
+          },
+          {
+            "_id": "69ac38309ca7b985d0ba2b6e",
+            "_tpl": "57c44f4f2459772d2c627113",
+            "parentId": "69ac37ebd05c3cf7e4542d12",
+            "slotId": "mod_reciever"
+          },
+          {
+            "_id": "69ac38368df92da9a381ce6d",
+            "_tpl": "57838f9f2459774a150289a0",
+            "parentId": "69ac37ebd05c3cf7e4542d12",
+            "slotId": "mod_magazine"
+          },
+          {
+            "_id": "69ac383e24ee8eb4699e4c2d",
+            "_tpl": "57c44fa82459772d2d75e415",
+            "parentId": "69ac37ebd05c3cf7e4542d12",
+            "slotId": "mod_pistol_grip"
+          },
+          {
+            "_id": "69ac384304402145ed446962",
+            "_tpl": "57c450252459772d28133253",
+            "parentId": "69ac37ebd05c3cf7e4542d12",
+            "slotId": "mod_stock"
+          },
+          {
+            "_id": "66b092556f11600e4e48baf7",
+            "_tpl": "651178336cad06c37c049eb4",
+            "parentId": "69ac37ebd05c3cf7e4542d12",
+            "slotId": "mod_handguard"
+          }
+        ]
+      }
+    ]
+  }
 }

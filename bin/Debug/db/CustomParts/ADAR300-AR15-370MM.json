@@ -1,32 +1,33 @@
 {
-  "newId": "69aece6a02537a05dd38385f",
-  "itemTplToClone": "55d3632e4bdc2d972f8b4569",
-  "parentId": "555ef6e44bdc2de9068b457e",
-  "handbookParentId": "5b5f75c686f774094242f19f",
-  "overrideProperties": {
-    "ExaminedByDefault": true,
-    "Recoil": -3,
-    "Ergonomics": -14,
-    "Slots": []
-  },
-  "fleaPriceRoubles": 24567,
-  "handbookPriceRoubles": 24567,
-  "copySlot": true,
-  "locales": {
-    "en": {
-      "Name": "AR-15 .300 Blackout 14.5 inch barrel",
-      "ShortName": "AR-15 14.5\"",
-      "Description": "A 14.5 inch (370mm) barrel for AR-15 platform rifles chambered in .300 Blackout. The mid-length configuration provides a good balance of handling and velocity, making it a versatile choice for both suppressed and standard rifle setups."
-    }
-  },
-  "copySlotsInfo": [
-    {
-      "id": "618168b350224f204c1da4d8",
-      "newSlotName": "mod_muzzle"
+  "69aece6a02537a05dd38385f": {
+    "itemTplToClone": "55d3632e4bdc2d972f8b4569",
+    "parentId": "555ef6e44bdc2de9068b457e",
+    "handbookParentId": "5b5f75c686f774094242f19f",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Recoil": -3,
+      "Ergonomics": -14,
+      "Slots": []
     },
-    {
-      "id": "55d3632e4bdc2d972f8b4569",
-      "newSlotName": "mod_gas_block"
-    }
-  ]
+    "fleaPriceRoubles": 24567,
+    "handbookPriceRoubles": 24567,
+    "copySlot": true,
+    "locales": {
+      "en": {
+        "Name": "AR-15 .300 Blackout 14.5 inch barrel",
+        "ShortName": "AR-15 14.5\"",
+        "Description": "A 14.5 inch (370mm) barrel for AR-15 platform rifles chambered in .300 Blackout. The mid-length configuration provides a good balance of handling and velocity, making it a versatile choice for both suppressed and standard rifle setups."
+      }
+    },
+    "copySlotsInfo": [
+      {
+        "id": "618168b350224f204c1da4d8",
+        "newSlotName": "mod_muzzle"
+      },
+      {
+        "id": "55d3632e4bdc2d972f8b4569",
+        "newSlotName": "mod_gas_block"
+      }
+    ]
+  }
 }

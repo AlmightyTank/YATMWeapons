@@ -1,219 +1,220 @@
 {
-  "newId": "69aedca1c08a06dba86cea37",
-  "itemTplToClone": "5ab8e4ed86f7742d8e50c7fa",
-  "parentId": "5448e54d4bdc2dcc718b4568",
-  "handbookParentId": "5b5f701386f774093f2ecf0f",
-  "overrideProperties": {
-    "ArmorMaterial": "UHMWPE",
-    "ArmorType": "Light",
-    "BackgroundColor": "red",
-    "Height": 3,
-    "Width": 3,
-    "CanRequireOnRagfair": false,
-    "CanSellOnRagfair": true,
-    "mousePenalty": -0.5,
-    "speedPenaltyPercent": 0,
-    "weaponErgonomicPenalty": -1,
-    "Slots": [
-      {
-        "_name": "Soft_armor_front",
-        "_id": "69aedf3d55f68e5094a6aca2",
-        "_parent": "69aedca1c08a06dba86cea37",
-        "_props": {
-          "filters": [
-            {
-              "Filter": [
-                "69aee6a6800f504fc4f9b870"
-              ],
-              "Plate": "69aee6a6800f504fc4f9b870",
-              "armorColliders": [
-                "RibcageLow",
-                "RibcageUp"
-              ],
-              "armorPlateColliders": [],
-              "bluntDamageReduceFromSoftArmor": false,
-              "locked": true
-            }
-          ]
-        },
-        "_required": true,
-        "_mergeSlotWithChildren": true,
-        "_proto": "64479fdf9731c8fadc0642c1"
-      },
-      {
-        "_name": "Soft_armor_back",
-        "_id": "69aedf55b3f3da2e0ae5d2b3",
-        "_parent": "69aedca1c08a06dba86cea37",
-        "_props": {
-          "filters": [
-            {
-              "Filter": [
-                "69aee6ab9cb5227a950ea825"
-              ],
-              "Plate": "69aee6ab9cb5227a950ea825",
-              "armorColliders": [
-                "SpineDown",
-                "SpineTop"
-              ],
-              "armorPlateColliders": [],
-              "bluntDamageReduceFromSoftArmor": false,
-              "locked": true
-            }
-          ]
-        },
-        "_required": true,
-        "_mergeSlotWithChildren": true,
-        "_proto": "64479fdf9731c8fadc0642c1"
-      },
-      {
-        "_name": "Soft_armor_left",
-        "_id": "69aedf57122db29713e5eeba",
-        "_parent": "69aedca1c08a06dba86cea37",
-        "_props": {
-          "filters": [
-            {
-              "Filter": [
-                "69aee6a13a9dcdb685a12070"
-              ],
-              "Plate": "69aee6a13a9dcdb685a12070",
-              "armorColliders": [
-                "LeftSideChestDown"
-              ],
-              "armorPlateColliders": [],
-              "bluntDamageReduceFromSoftArmor": false,
-              "locked": true
-            }
-          ]
-        },
-        "_required": true,
-        "_mergeSlotWithChildren": true,
-        "_proto": "64479fdf9731c8fadc0642c1"
-      },
-      {
-        "_name": "soft_armor_right",
-        "_id": "69aedf5f5732aa7f92a4e355",
-        "_parent": "69aedca1c08a06dba86cea37",
-        "_props": {
-          "filters": [
-            {
-              "Filter": [
-                "69aee6fbc6c0d4fee9dfa66b"
-              ],
-              "Plate": "69aee6fbc6c0d4fee9dfa66b",
-              "armorColliders": [
-                "RightSideChestDown"
-              ],
-              "armorPlateColliders": [],
-              "bluntDamageReduceFromSoftArmor": false,
-              "locked": true
-            }
-          ]
-        },
-        "_required": true,
-        "_mergeSlotWithChildren": true,
-        "_proto": "64479fdf9731c8fadc0642c1"
-      }
-    ]
-  },
-  "fleaPriceRoubles": 165411,
-  "handbookPriceRoubles": 89887,
-  "addWeaponPreset": true,
-  "staticLootContainers": [
-    {
-      "probability": 410,
-      "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE"
-    },
-    {
-      "probability": 410,
-      "containerName": "LOOTCONTAINER_DEAD_SCAV"
-    },
-    {
-      "probability": 410,
-      "containerName": "LOOTCONTAINER_DEAD_SCAV_4X4_2"
-    },
-    {
-      "probability": 410,
-      "containerName": "LOOTCONTAINER_FESTIVE_AIRDROP_SUPPLY_CRATE"
-    },
-    {
-      "probability": 410,
-      "containerName": "LOOTCONTAINER_PMC_BODY"
-    },
-    {
-      "probability": 410,
-      "containerName": "LOOTCONTAINER_SCAV_BODY"
-    }
-  ],
-  "copySlot": true,
-  "locales": {
-    "en": {
-      "Name": "UNTAR Plate Carrier",
-      "ShortName": "UN-PC",
-      "Description": "A modified UNTAR ballistic carrier adapted to accept armor plates. While originally designed for light peacekeeping duties, upgraded versions like this one offer significantly improved protection in combat environments."
-    }
-  },
-  "copySlotsInfo": [
-    {
-      "id": "6038b4b292ec1c3103795a0b",
-      "newSlotName": "Front_plate"
-    },
-    {
-      "id": "6038b4b292ec1c3103795a0b",
-      "newSlotName": "Back_plate"
-    }
-  ],
-  "presets": [
-    {
-      "_id": "69aed903c70aeac0aee77fe5",
-      "_type": "Preset",
-      "_changeWeaponName": false,
-      "_name": "UNTAR Armor V2 Default",
-      "_parent": "69aedca1c08a06dba86cea37",
-      "_items": [
+  "69aedca1c08a06dba86cea37": {
+    "itemTplToClone": "5ab8e4ed86f7742d8e50c7fa",
+    "parentId": "5448e54d4bdc2dcc718b4568",
+    "handbookParentId": "5b5f701386f774093f2ecf0f",
+    "overrideProperties": {
+      "ArmorMaterial": "UHMWPE",
+      "ArmorType": "Light",
+      "BackgroundColor": "red",
+      "Height": 3,
+      "Width": 3,
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": true,
+      "mousePenalty": -0.5,
+      "speedPenaltyPercent": 0,
+      "weaponErgonomicPenalty": -1,
+      "Slots": [
         {
-          "_id": "69aedca1c08a06dba86cea37",
-          "_tpl": "69aedca1c08a06dba86cea37"
+          "_name": "Soft_armor_front",
+          "_id": "69aedf3d55f68e5094a6aca2",
+          "_parent": "69aedca1c08a06dba86cea37",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "69aee6a6800f504fc4f9b870"
+                ],
+                "Plate": "69aee6a6800f504fc4f9b870",
+                "armorColliders": [
+                  "RibcageLow",
+                  "RibcageUp"
+                ],
+                "armorPlateColliders": [],
+                "bluntDamageReduceFromSoftArmor": false,
+                "locked": true
+              }
+            ]
+          },
+          "_required": true,
+          "_mergeSlotWithChildren": true,
+          "_proto": "64479fdf9731c8fadc0642c1"
         },
         {
-          "_id": "69aeea58454e4ec6b0db737b",
-          "_tpl": "656fa76500d62bcd2e024080",
-          "parentId": "69aedca1c08a06dba86cea37",
-          "slotId": "Front_plate"
+          "_name": "Soft_armor_back",
+          "_id": "69aedf55b3f3da2e0ae5d2b3",
+          "_parent": "69aedca1c08a06dba86cea37",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "69aee6ab9cb5227a950ea825"
+                ],
+                "Plate": "69aee6ab9cb5227a950ea825",
+                "armorColliders": [
+                  "SpineDown",
+                  "SpineTop"
+                ],
+                "armorPlateColliders": [],
+                "bluntDamageReduceFromSoftArmor": false,
+                "locked": true
+              }
+            ]
+          },
+          "_required": true,
+          "_mergeSlotWithChildren": true,
+          "_proto": "64479fdf9731c8fadc0642c1"
         },
         {
-          "_id": "69aeea5b73a954e69ada1b64",
-          "_tpl": "656fa76500d62bcd2e024080",
-          "parentId": "69aedca1c08a06dba86cea37",
-          "slotId": "Back_plate"
+          "_name": "Soft_armor_left",
+          "_id": "69aedf57122db29713e5eeba",
+          "_parent": "69aedca1c08a06dba86cea37",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "69aee6a13a9dcdb685a12070"
+                ],
+                "Plate": "69aee6a13a9dcdb685a12070",
+                "armorColliders": [
+                  "LeftSideChestDown"
+                ],
+                "armorPlateColliders": [],
+                "bluntDamageReduceFromSoftArmor": false,
+                "locked": true
+              }
+            ]
+          },
+          "_required": true,
+          "_mergeSlotWithChildren": true,
+          "_proto": "64479fdf9731c8fadc0642c1"
         },
         {
-          "_id": "69aed90a1688537337efd3f2",
-          "_tpl": "69aee6a6800f504fc4f9b870",
-          "parentId": "69aedca1c08a06dba86cea37",
-          "slotId": "Soft_armor_front"
-        },
-        {
-          "_id": "69aed90f438a3a45d2267134",
-          "_tpl": "69aee6ab9cb5227a950ea825",
-          "parentId": "69aedca1c08a06dba86cea37",
-          "slotId": "Soft_armor_back"
-        },
-        {
-          "_id": "69aed913dd5369984e2253e2",
-          "_tpl": "69aee6a13a9dcdb685a12070",
-          "parentId": "69aedca1c08a06dba86cea37",
-          "slotId": "Soft_armor_left"
-        },
-        {
-          "_id": "69aed917aa358a994861a9b0",
-          "_tpl": "69aee6fbc6c0d4fee9dfa66b",
-          "parentId": "69aedca1c08a06dba86cea37",
-          "slotId": "soft_armor_right"
+          "_name": "soft_armor_right",
+          "_id": "69aedf5f5732aa7f92a4e355",
+          "_parent": "69aedca1c08a06dba86cea37",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "69aee6fbc6c0d4fee9dfa66b"
+                ],
+                "Plate": "69aee6fbc6c0d4fee9dfa66b",
+                "armorColliders": [
+                  "RightSideChestDown"
+                ],
+                "armorPlateColliders": [],
+                "bluntDamageReduceFromSoftArmor": false,
+                "locked": true
+              }
+            ]
+          },
+          "_required": true,
+          "_mergeSlotWithChildren": true,
+          "_proto": "64479fdf9731c8fadc0642c1"
         }
-      ],
-      "_encyclopedia": "69aedca1c08a06dba86cea37"
-    }
-  ],
-  "addToBots": true,
-  "addToStaticLootContainers": true
+      ]
+    },
+    "fleaPriceRoubles": 165411,
+    "handbookPriceRoubles": 89887,
+    "addToPreset": true,
+    "staticLootContainers": [
+      {
+        "probability": 410,
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE"
+      },
+      {
+        "probability": 410,
+        "containerName": "LOOTCONTAINER_DEAD_SCAV"
+      },
+      {
+        "probability": 410,
+        "containerName": "LOOTCONTAINER_DEAD_SCAV_4X4_2"
+      },
+      {
+        "probability": 410,
+        "containerName": "LOOTCONTAINER_FESTIVE_AIRDROP_SUPPLY_CRATE"
+      },
+      {
+        "probability": 410,
+        "containerName": "LOOTCONTAINER_PMC_BODY"
+      },
+      {
+        "probability": 410,
+        "containerName": "LOOTCONTAINER_SCAV_BODY"
+      }
+    ],
+    "copySlot": true,
+    "locales": {
+      "en": {
+        "Name": "UNTAR Plate Carrier",
+        "ShortName": "UN-PC",
+        "Description": "A modified UNTAR ballistic carrier adapted to accept armor plates. While originally designed for light peacekeeping duties, upgraded versions like this one offer significantly improved protection in combat environments."
+      }
+    },
+    "copySlotsInfo": [
+      {
+        "id": "6038b4b292ec1c3103795a0b",
+        "newSlotName": "Front_plate"
+      },
+      {
+        "id": "6038b4b292ec1c3103795a0b",
+        "newSlotName": "Back_plate"
+      }
+    ],
+    "presets": [
+      {
+        "_id": "69aed903c70aeac0aee77fe5",
+        "_type": "Preset",
+        "_changeWeaponName": false,
+        "_name": "UNTAR Armor V2 Default",
+        "_parent": "69aedca1c08a06dba86cea37",
+        "_items": [
+          {
+            "_id": "69aedca1c08a06dba86cea37",
+            "_tpl": "69aedca1c08a06dba86cea37"
+          },
+          {
+            "_id": "69aeea58454e4ec6b0db737b",
+            "_tpl": "656fa76500d62bcd2e024080",
+            "parentId": "69aedca1c08a06dba86cea37",
+            "slotId": "Front_plate"
+          },
+          {
+            "_id": "69aeea5b73a954e69ada1b64",
+            "_tpl": "656fa76500d62bcd2e024080",
+            "parentId": "69aedca1c08a06dba86cea37",
+            "slotId": "Back_plate"
+          },
+          {
+            "_id": "69aed90a1688537337efd3f2",
+            "_tpl": "69aee6a6800f504fc4f9b870",
+            "parentId": "69aedca1c08a06dba86cea37",
+            "slotId": "Soft_armor_front"
+          },
+          {
+            "_id": "69aed90f438a3a45d2267134",
+            "_tpl": "69aee6ab9cb5227a950ea825",
+            "parentId": "69aedca1c08a06dba86cea37",
+            "slotId": "Soft_armor_back"
+          },
+          {
+            "_id": "69aed913dd5369984e2253e2",
+            "_tpl": "69aee6a13a9dcdb685a12070",
+            "parentId": "69aedca1c08a06dba86cea37",
+            "slotId": "Soft_armor_left"
+          },
+          {
+            "_id": "69aed917aa358a994861a9b0",
+            "_tpl": "69aee6fbc6c0d4fee9dfa66b",
+            "parentId": "69aedca1c08a06dba86cea37",
+            "slotId": "soft_armor_right"
+          }
+        ],
+        "_encyclopedia": "69aedca1c08a06dba86cea37"
+      }
+    ],
+    "addToBots": true,
+    "addToStaticLootContainers": true
+  }
 }

@@ -1,38 +1,39 @@
 {
-  "newId": "69a36ff6000c22ca2f84b1b3",
-  "itemTplToClone": "56dff3afd2720bba668b4567",
-  "parentId": "5485a8684bdc2da71d8b4567",
-  "handbookParentId": "5b47574386f77428ca22b33b",
-  "overrideProperties": {
-    "ExaminedByDefault": true,
-    "PenetrationPower": 30,
-    "Damage": 54,
-    "ammoAccr": 2,
-    "ammoRec": -3,
-    "DurabilityBurnModificator": 1.1,
-    "FragmentationChance": 0.18
-  },
-  "fleaPriceRoubles": 140,
-  "handbookPriceRoubles": 140,
-  "addCaliberToAllCloneLocations": true,
-  "staticAmmoProbability": 5,
-  "traderId": "698f904cd0fa772942d237c7",
-  "traderLoyaltyLevel": 1,
-  "unlimitedCount": true,
-  "stackObjectsCount": 99,
-  "barterScheme": [
-    {
-      "count": 140,
-      "tpl": "5449016a4bdc2d6f028b456f"
-    }
-  ],
-  "locales": {
-    "en": {
-      "Name": "5.45x39 PS+ \"Consigliere Load\"",
-      "ShortName": "Tony PS+",
-      "Description": "A privately repackaged 5.45x39mm load distributed through underground supply channels. These cartridges are batch-sorted for consistency and tuned for controllable automatic fire rather than battlefield longevity. Favored by organized security forces operating inside Tarkov."
-    }
-  },
-  "addToStaticAmmo": true,
-  "addToTraders": false
+  "69a36ff6000c22ca2f84b1b3": {
+    "itemTplToClone": "56dff3afd2720bba668b4567",
+    "parentId": "5485a8684bdc2da71d8b4567",
+    "handbookParentId": "5b47574386f77428ca22b33b",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "PenetrationPower": 30,
+      "Damage": 54,
+      "ammoAccr": 2,
+      "ammoRec": -3,
+      "DurabilityBurnModificator": 1.1,
+      "FragmentationChance": 0.18
+    },
+    "fleaPriceRoubles": 140,
+    "handbookPriceRoubles": 140,
+    "addCaliberToAllCloneLocations": true,
+    "staticAmmoProbability": 5,
+    "traderId": "698f904cd0fa772942d237c7",
+    "traderLoyaltyLevel": 1,
+    "unlimitedCount": true,
+    "stackObjectsCount": 99,
+    "barterScheme": [
+      {
+        "count": 140,
+        "tpl": "5449016a4bdc2d6f028b456f"
+      }
+    ],
+    "locales": {
+      "en": {
+        "Name": "5.45x39 PS+ \"Consigliere Load\"",
+        "ShortName": "Tony PS+",
+        "Description": "A privately repackaged 5.45x39mm load distributed through underground supply channels. These cartridges are batch-sorted for consistency and tuned for controllable automatic fire rather than battlefield longevity. Favored by organized security forces operating inside Tarkov."
+      }
+    },
+    "addToStaticAmmo": true,
+    "addToTraders": false
+  }
 }

@@ -50,21 +50,21 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
-            "CommonCore": {
-              "target": "Package",
-              "version": "[1.0.0, )"
-            },
             "SPTarkov.Common": {
               "target": "Package",
-              "version": "[4.0.11, )"
+              "version": "[4.0.13, )"
             },
             "SPTarkov.DI": {
               "target": "Package",
-              "version": "[4.0.11, )"
+              "version": "[4.0.13, )"
             },
             "SPTarkov.Server.Core": {
               "target": "Package",
-              "version": "[4.0.11, )"
+              "version": "[4.0.13, )"
+            },
+            "WTT-ServerCommonLib": {
+              "target": "Package",
+              "version": "[2.0.15, )"
             }
           },
           "imports": [
