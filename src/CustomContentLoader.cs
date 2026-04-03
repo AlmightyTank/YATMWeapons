@@ -55,6 +55,7 @@ public sealed class CustomContentLoader(
             var itemPaths = new[]
             {
                 Path.Join("db", "CustomAmmo"),
+                Path.Join("db", "CustomArmor", "BodyArmorBuiltins", "LvL5"),
                 Path.Join("db", "CustomArmor"),
                 Path.Join("db", "CustomParts"),
                 Path.Join("db", "CustomWeapons")
