@@ -19,14 +19,14 @@ public record ModMetadata : AbstractModMetadata
     public override Dictionary<string, Range>? ModDependencies { get; init; } = new()
     {
         { "com.amightytank.commonlibextended", new Range("~1.0.0") },
-                 { "com.wtt.commonlib", new Range("~2.0.15") }
+        { "com.wtt.commonlib", new Range("~2.0.15") }
     };
     public override string? Url { get; init; } = null;
     public override bool? IsBundleMod { get; init; } = false;
     public override string License { get; init; } = "MIT";
 }
 
-[Injectable(TypePriority = OnLoadOrder.PostDBModLoader + 11)]
+[Injectable(TypePriority = OnLoadOrder.PostDBModLoader + 6)]
 public sealed class CustomContentLoader(
     WTTServerCommonLib.WTTServerCommonLib wttCommon,
     CommonLibExtendedBootstrap commonLibExtendedBootstrap) : IOnLoad
@@ -48,28 +48,50 @@ public sealed class CustomContentLoader(
 
             if (!Directory.Exists(dbPath))
             {
-                YATMLogger.Log($"[CustomContenjtLoader] DB folder not found: {dbPath}");
+                YATMLogger.Log($"[CustomContentLoader] DB folder not found: {dbPath}");
                 return;
             }
 
-            YATMLogger.LogDebug("[CustomContentLoader] Loading all item content from db...");
-
-            await wttCommon.CustomItemServiceExtended.CreateCustomItems(assembly, Path.Join("db", "CustomAmmo"));
-            await wttCommon.CustomItemServiceExtended.CreateCustomItems(assembly, Path.Join("db", "CustomArmor"));
-            await wttCommon.CustomItemServiceExtended.CreateCustomItems(assembly, Path.Join("db", "CustomParts"));
-            await wttCommon.CustomItemServiceExtended.CreateCustomItems(assembly, Path.Join("db", "CustomWeapons"));
-
-            YATMLogger.Log("[CustomContentLoader] Finished loading WTTCommon Items.");
-
-            await commonLibExtendedBootstrap.CreateCustomItems(
-                assembly,
+            var itemPaths = new[]
+            {
                 Path.Join("db", "CustomAmmo"),
                 Path.Join("db", "CustomArmor"),
                 Path.Join("db", "CustomParts"),
-                Path.Join("db", "CustomWeapons"));
+                Path.Join("db", "CustomWeapons")
+            };
 
-            YATMLogger.Log("[CustomContentLoader] Finished loading CommonLibExteneded Items.");
+            var slotCopyPaths = new[]
+            {
+                Path.Join("db", "CustomArmor"),
+                Path.Join("db", "CustomParts"),
+                Path.Join("db", "CustomWeapons")
+            };
 
+            var presetPath = Path.Join("db", "CustomWeaponPresets");
+
+            YATMLogger.LogDebug("[CustomContentLoader] Loading WTT items...");
+
+            foreach (var path in itemPaths)
+            {
+                await wttCommon.CustomItemServiceExtended.CreateCustomItems(assembly, path);
+            }
+
+            foreach (var path in slotCopyPaths)
+            {
+                await commonLibExtendedBootstrap.ProcessSlotCopies(assembly, path);
+            }
+
+            await wttCommon.CustomWeaponPresetService.CreateCustomWeaponPresets(assembly, presetPath);
+            await commonLibExtendedBootstrap.RegisterWeaponPresets(assembly, presetPath);
+
+            YATMLogger.Log("[CustomContentLoader] Finished loading WTT items and presets.");
+
+            foreach (var path in itemPaths)
+            {
+                await commonLibExtendedBootstrap.ProcessTheRest(assembly, path);
+            }
+
+            YATMLogger.Log("[CustomContentLoader] Finished loading CommonLibExtended items.");
             YATMLogger.Log("[CustomContentLoader] Finished loading all custom content.");
         }
         catch (Exception ex)
