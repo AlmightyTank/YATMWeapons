@@ -19,9 +19,9 @@
     "handbookPriceRoubles": 2500,
     "locales": {
       "en": {
-        "Name": "Soft Armor Front Lv.5",
-        "ShortName": "Front5",
-        "Description": ""
+        "name": "Soft Armor Front Lv.5",
+        "shortName": "Front5",
+        "description": ""
       }
     },
     "addToBots": false,

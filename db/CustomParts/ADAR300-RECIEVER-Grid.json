@@ -38,9 +38,9 @@
     "copySlot": true,
     "locales": {
       "en": {
-        "Name": "Grid Defense 10.5\" .300 Blackout upper receiver",
-        "ShortName": "Grid 10.5",
-        "Description": "A compact 10.5-inch AR-15 upper receiver manufactured by Grid Defense and chambered in .300 AAC Blackout. Designed for close-quarters engagements, this configuration often includes a flash can to direct muzzle blast forward. Its short profile makes it ideal for suppressed carbines and tactical CQB setups."
+        "name": "Grid Defense 10.5\" .300 Blackout upper receiver",
+        "shortName": "Grid 10.5",
+        "description": "A compact 10.5-inch AR-15 upper receiver manufactured by Grid Defense and chambered in .300 AAC Blackout. Designed for close-quarters engagements, this configuration often includes a flash can to direct muzzle blast forward. Its short profile makes it ideal for suppressed carbines and tactical CQB setups."
       }
     },
     "copySlotsInfo": [

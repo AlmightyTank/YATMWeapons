@@ -38,9 +38,9 @@
     "copySlot": true,
     "locales": {
       "en": {
-        "Name": "Ghost Firearms Elite .300 Blackout upper receiver",
-        "ShortName": "Ghost Elite",
-        "Description": "A budget-friendly AR-15 pattern upper receiver assembly produced by Ghost Firearms. Chambered in .300 AAC Blackout, the Elite series focuses on reliability and compatibility with standard AR components. Its short barrel configuration is well suited for suppressed weapons and compact CQB builds."
+        "name": "Ghost Firearms Elite .300 Blackout upper receiver",
+        "shortName": "Ghost Elite",
+        "description": "A budget-friendly AR-15 pattern upper receiver assembly produced by Ghost Firearms. Chambered in .300 AAC Blackout, the Elite series focuses on reliability and compatibility with standard AR components. Its short barrel configuration is well suited for suppressed weapons and compact CQB builds."
       }
     },
     "copySlotsInfo": [

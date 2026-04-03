@@ -147,9 +147,9 @@
     "copySlot": true,
     "locales": {
       "en": {
-        "Name": "UNTAR Plate Carrier",
-        "ShortName": "UN-PC",
-        "Description": "A modified UNTAR ballistic carrier adapted to accept armor plates. While originally designed for light peacekeeping duties, upgraded versions like this one offer significantly improved protection in combat environments."
+        "name": "UNTAR Plate Carrier",
+        "shortName": "UN-PC",
+        "description": "A modified UNTAR ballistic carrier adapted to accept armor plates. While originally designed for light peacekeeping duties, upgraded versions like this one offer significantly improved protection in combat environments."
       }
     },
     "copySlotsInfo": [

@@ -14,9 +14,9 @@
     "copySlot": true,
     "locales": {
       "en": {
-        "Name": "AR-15 .300 Blackout 14.5 inch barrel",
-        "ShortName": "AR-15 14.5\"",
-        "Description": "A 14.5 inch (370mm) barrel for AR-15 platform rifles chambered in .300 Blackout. The mid-length configuration provides a good balance of handling and velocity, making it a versatile choice for both suppressed and standard rifle setups."
+        "name": "AR-15 .300 Blackout 14.5 inch barrel",
+        "shortName": "AR-15 14.5\"",
+        "description": "A 14.5 inch (370mm) barrel for AR-15 platform rifles chambered in .300 Blackout. The mid-length configuration provides a good balance of handling and velocity, making it a versatile choice for both suppressed and standard rifle setups."
       }
     },
     "copySlotsInfo": [

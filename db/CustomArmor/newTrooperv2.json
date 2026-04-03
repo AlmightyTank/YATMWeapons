@@ -80,9 +80,9 @@
     ],
     "locales": {
       "en": {
-        "Name": "HighCom Vanguard Plate Carrier (MultiCam)",
-        "ShortName": "Vanguard",
-        "Description": "A HighCom modular plate carrier favored by private military contractors operating in Tarkov. Built for durability and mobility, the carrier provides reliable ballistic protection while maintaining compatibility with modern armor plates."
+        "name": "HighCom Vanguard Plate Carrier (MultiCam)",
+        "shortName": "Vanguard",
+        "description": "A HighCom modular plate carrier favored by private military contractors operating in Tarkov. Built for durability and mobility, the carrier provides reliable ballistic protection while maintaining compatibility with modern armor plates."
       }
     },
     "fleaPriceRoubles": 165411,

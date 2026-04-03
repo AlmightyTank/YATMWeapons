@@ -19,9 +19,9 @@
     "handbookPriceRoubles": 2500,
     "locales": {
       "en": {
-        "Name": "UHMWPE insert",
-        "ShortName": "Insert5",
-        "Description": "This insert is made of UHMWPE, which is a high-strength material that provides excellent protection against bullets and shrapnel. It is designed to be inserted into compatible body armor vests to enhance their protective capabilities. The insert is lightweight and flexible, allowing for comfortable wear while still providing a high level of protection. It is ideal for use in combat situations where mobility and protection are both important factors."
+        "name": "UHMWPE insert",
+        "shortName": "Insert5",
+        "description": "This insert is made of UHMWPE, which is a high-strength material that provides excellent protection against bullets and shrapnel. It is designed to be inserted into compatible body armor vests to enhance their protective capabilities. The insert is lightweight and flexible, allowing for comfortable wear while still providing a high level of protection. It is ideal for use in combat situations where mobility and protection are both important factors."
       }
     },
     "addToBots": false,

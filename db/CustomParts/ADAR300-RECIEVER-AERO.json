@@ -38,9 +38,9 @@
     "copySlot": true,
     "locales": {
       "en": {
-        "Name": "Aero Precision M4E1 .300 Blackout upper receiver",
-        "ShortName": "M4E1 .300",
-        "Description": "A forged M4E1 upper receiver manufactured by Aero Precision and chambered in .300 AAC Blackout. Designed for AR-15 pattern rifles, the M4E1 series features reinforced geometry and improved compatibility with modern free-float handguards. The .300 Blackout configuration is optimized for short barrels and suppressed fire, making it popular for close-quarters engagements."
+        "name": "Aero Precision M4E1 .300 Blackout upper receiver",
+        "shortName": "M4E1 .300",
+        "description": "A forged M4E1 upper receiver manufactured by Aero Precision and chambered in .300 AAC Blackout. Designed for AR-15 pattern rifles, the M4E1 series features reinforced geometry and improved compatibility with modern free-float handguards. The .300 Blackout configuration is optimized for short barrels and suppressed fire, making it popular for close-quarters engagements."
       }
     },
     "copySlotsInfo": [

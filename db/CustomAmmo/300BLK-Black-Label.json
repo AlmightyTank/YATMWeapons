@@ -14,9 +14,9 @@
         },
         "locales": {
             "en": {
-                "Name": ".300 Blackout “Black Label”",
-                "ShortName": "BLK",
-                "Description": "A premium .300 Blackout cartridge distributed exclusively through Tony’s inner supply network. These rounds are assembled from carefully selected components and tuned for suppressed platforms, delivering exceptional consistency and reliable terminal performance in close-quarters engagements. Reserved for trusted operators handling sensitive work inside Tarkov."
+                "name": ".300 Blackout “Black Label”",
+                "shortName": "BLK",
+                "description": "A premium .300 Blackout cartridge distributed exclusively through Tony’s inner supply network. These rounds are assembled from carefully selected components and tuned for suppressed platforms, delivering exceptional consistency and reliable terminal performance in close-quarters engagements. Reserved for trusted operators handling sensitive work inside Tarkov."
             }
         },
         "fleaPriceRoubles": 870,
@@ -25,10 +25,9 @@
         "addToStaticAmmo": true,
         "staticAmmoProbability": 5,
         "addToTraders": true,
-
         "traders": {
             "698f904cd0fa772942d237c7": {
-                "69ca7a7acc834d7cd484d73d": {
+                "69cd285e585783a45079bde4": {
                     "barterSettings": {
                         "loyalLevel": 1,
                         "unlimitedCount": true,
@@ -43,13 +42,12 @@
                 }
             }
         },
-
-
         "addToQuestAssorts": true,
         "questAssorts": [
             {
                 "traderId": "698f904cd0fa772942d237c7",
                 "questId": "699a84bf8e2052342f79b912",
+                "assortId": "69cd285e585783a45079bde4",
                 "status": "Success"
             }
         ],

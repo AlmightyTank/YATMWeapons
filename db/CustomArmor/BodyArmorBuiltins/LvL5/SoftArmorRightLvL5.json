@@ -19,9 +19,9 @@
     "handbookPriceRoubles": 2500,
     "locales": {
       "en": {
-        "Name": "Soft Armor Right Lv.5",
-        "ShortName": "Right5",
-        "Description": ""
+        "name": "Soft Armor Right Lv.5",
+        "shortName": "Right5",
+        "description": ""
       }
     },
     "addToBots": false,

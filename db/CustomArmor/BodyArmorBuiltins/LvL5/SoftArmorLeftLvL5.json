@@ -19,9 +19,9 @@
     "handbookPriceRoubles": 2500,
     "locales": {
       "en": {
-        "Name": "Soft Armor Left Lv.5",
-        "ShortName": "Left5",
-        "Description": ""
+        "name": "Soft Armor Left Lv.5",
+        "shortName": "Left5",
+        "description": ""
       }
     },
     "addToBots": false,

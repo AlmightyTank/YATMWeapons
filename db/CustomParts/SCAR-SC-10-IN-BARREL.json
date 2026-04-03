@@ -20,9 +20,9 @@
     "copySlot": true,
     "locales": {
       "en": {
-        "Name": "FN SCAR-SC .300 Blackout 10 inch barrel",
-        "ShortName": "SCAR-SC 10\"",
-        "Description": "A 10 inch (254mm compact barrel for the SCAR-SC platform chambered in .300 Blackout. This shortened configuration favors suppressed operation and close-quarters engagements. Rifles assembled with this barrel are often seen in Tony's workshop builds, tuned for reliability and controllable automatic fire."
+        "name": "FN SCAR-SC .300 Blackout 10 inch barrel",
+        "shortName": "SCAR-SC 10\"",
+        "description": "A 10 inch (254mm compact barrel for the SCAR-SC platform chambered in .300 Blackout. This shortened configuration favors suppressed operation and close-quarters engagements. Rifles assembled with this barrel are often seen in Tony's workshop builds, tuned for reliability and controllable automatic fire."
       }
     },
     "copySlotsInfo": [

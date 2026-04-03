@@ -13,9 +13,9 @@
     "handbookPriceRoubles": 19118,
     "locales": {
       "en": {
-        "Name": "AR-15 .300 Blackout 10.3 inch barrel",
-        "ShortName": "AR-15 10.3\"",
-        "Description": "A 10.3 inch (260mm) CQB barrel for AR-15 platform rifles chambered in .300 Blackout. Designed for compact builds and suppressed operation, the shorter barrel offers excellent maneuverability while maintaining solid ballistic performance at close to medium ranges."
+        "name": "AR-15 .300 Blackout 10.3 inch barrel",
+        "shortName": "AR-15 10.3\"",
+        "description": "A 10.3 inch (260mm) CQB barrel for AR-15 platform rifles chambered in .300 Blackout. Designed for compact builds and suppressed operation, the shorter barrel offers excellent maneuverability while maintaining solid ballistic performance at close to medium ranges."
       }
     },
     "copySlot": true,

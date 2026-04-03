@@ -28,9 +28,9 @@
     ],
     "locales": {
       "en": {
-        "Name": "7.62×39 “Consigliere BP-M”",
-        "ShortName": "BP-M",
-        "Description": "A modified 7.62x39mm armor-piercing cartridge distributed through Tony's underground logistics network. Built from repurposed BP components and carefully sorted powder loads, these rounds prioritize consistent penetration and controllable automatic fire. While not produced in official military factories, their reliability and stopping power make them a favorite among organized security crews operating inside Tarkov."
+        "name": "7.62×39 “Consigliere BP-M”",
+        "shortName": "BP-M",
+        "description": "A modified 7.62x39mm armor-piercing cartridge distributed through Tony's underground logistics network. Built from repurposed BP components and carefully sorted powder loads, these rounds prioritize consistent penetration and controllable automatic fire. While not produced in official military factories, their reliability and stopping power make them a favorite among organized security crews operating inside Tarkov."
       }
     },
     "addToStaticAmmo": true,

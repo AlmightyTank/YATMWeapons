@@ -19,9 +19,9 @@
     "handbookPriceRoubles": 2500,
     "locales": {
       "en": {
-        "Name": "Soft Armor Back Lv.5",
-        "ShortName": "Back5",
-        "Description": ""
+        "name": "Soft Armor Back Lv.5",
+        "shortName": "Back5",
+        "description": ""
       }
     },
     "addToBots": false,

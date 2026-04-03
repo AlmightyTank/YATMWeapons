@@ -14,9 +14,9 @@
     "copySlot": true,
     "locales": {
       "en": {
-        "Name": "AR-15 .300 Blackout Molot Arms 16 inch barrel",
-        "ShortName": "ADAR 16\"",
-        "Description": "A 16 inch (406mm) barrel for AR-15 platform rifles chambered in .300 Blackout, manufactured by Molot Arms. A standard-length barrel compatible with ADAR-pattern carbines, offering improved velocity and stability compared to shorter CQB configurations."
+        "name": "AR-15 .300 Blackout Molot Arms 16 inch barrel",
+        "shortName": "ADAR 16\"",
+        "description": "A 16 inch (406mm) barrel for AR-15 platform rifles chambered in .300 Blackout, manufactured by Molot Arms. A standard-length barrel compatible with ADAR-pattern carbines, offering improved velocity and stability compared to shorter CQB configurations."
       }
     },
     "copySlotsInfo": [

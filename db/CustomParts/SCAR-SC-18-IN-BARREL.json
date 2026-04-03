@@ -14,9 +14,9 @@
     "copySlot": true,
     "locales": {
       "en": {
-        "Name": "FN SCAR-SC .300 Blackout 18 inch barrel",
-        "ShortName": "SCAR-SC 18\"",
-        "Description": "An 18 inch (457mm) long barrel for the SCAR-SC platform chambered in .300 Blackout. Designed for operators who want improved velocity and range from the compact SCAR system while retaining compatibility with suppressors and modern tactical accessories."
+        "name": "FN SCAR-SC .300 Blackout 18 inch barrel",
+        "shortName": "SCAR-SC 18\"",
+        "description": "An 18 inch (457mm) long barrel for the SCAR-SC platform chambered in .300 Blackout. Designed for operators who want improved velocity and range from the compact SCAR system while retaining compatibility with suppressors and modern tactical accessories."
       }
     },
     "copySlotsInfo": [

@@ -35,9 +35,9 @@
     "copySlot": true,
     "locales": {
       "en": {
-        "Name": "FN SCAR-SC .300 Blackout upper receiver (FDE)",
-        "ShortName": "SCAR-SC",
-        "Description": "A compact SCAR-SC upper receiver chambered in .300 Blackout. Built on the modular SCAR platform and fitted with an integrated top rail for optics and tactical devices. This configuration favors suppressed and close-quarters engagements, and examples modified through Tony's workshop are known for smoother cycling and improved reliability. Flat Dark Earth version."
+        "name": "FN SCAR-SC .300 Blackout upper receiver (FDE)",
+        "shortName": "SCAR-SC",
+        "description": "A compact SCAR-SC upper receiver chambered in .300 Blackout. Built on the modular SCAR platform and fitted with an integrated top rail for optics and tactical devices. This configuration favors suppressed and close-quarters engagements, and examples modified through Tony's workshop are known for smoother cycling and improved reliability. Flat Dark Earth version."
       }
     },
     "copySlotsInfo": [

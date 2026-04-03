@@ -28,9 +28,9 @@
     ],
     "locales": {
       "en": {
-        "Name": "7.62×54R “Underboss AP”",
-        "ShortName": "UB-AP",
-        "Description": "A specialized 7.62x54R armor-piercing cartridge reserved for Tony’s most trusted enforcers. Assembled from select military surplus components and tuned for precision rifles, these rounds deliver exceptional penetration and reliable long-range performance. Within Tony’s organization, ammunition like this is issued only to those trusted to settle problems permanently."
+        "name": "7.62×54R “Underboss AP”",
+        "shortName": "UB-AP",
+        "description": "A specialized 7.62x54R armor-piercing cartridge reserved for Tony’s most trusted enforcers. Assembled from select military surplus components and tuned for precision rifles, these rounds deliver exceptional penetration and reliable long-range performance. Within Tony’s organization, ammunition like this is issued only to those trusted to settle problems permanently."
       }
     },
     "addToStaticAmmo": true,

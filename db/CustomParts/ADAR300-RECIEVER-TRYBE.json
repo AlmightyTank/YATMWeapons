@@ -38,9 +38,9 @@
     "copySlot": true,
     "locales": {
       "en": {
-        "Name": "TRYBE Defense Magnite .300 Blackout upper receiver",
-        "ShortName": "Magnite",
-        "Description": "A lightweight AR-15 upper receiver from TRYBE Defense featuring Magnite magnesium alloy components to reduce overall weight. Chambered in .300 AAC Blackout, this upper is designed for highly mobile weapon builds while retaining compatibility with modern M-LOK accessories and suppressor-ready configurations."
+        "name": "TRYBE Defense Magnite .300 Blackout upper receiver",
+        "shortName": "Magnite",
+        "description": "A lightweight AR-15 upper receiver from TRYBE Defense featuring Magnite magnesium alloy components to reduce overall weight. Chambered in .300 AAC Blackout, this upper is designed for highly mobile weapon builds while retaining compatibility with modern M-LOK accessories and suppressor-ready configurations."
       }
     },
     "copySlotsInfo": [

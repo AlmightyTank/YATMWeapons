@@ -14,9 +14,9 @@
     "copySlot": true,
     "locales": {
       "en": {
-        "Name": "FN SCAR-SC .300 Blackout 14 inch barrel",
-        "ShortName": "SCAR-SC 14\"",
-        "Description": "A 14 inch (355mm) barrel for the SCAR-SC platform chambered in .300 Blackout. The extended length improves velocity and stability compared to compact CQB barrels. Tony prefers this setup when he wants the SCAR platform to keep its punch while still benefiting from the versatility of the .300 Blackout cartridge."
+        "name": "FN SCAR-SC .300 Blackout 14 inch barrel",
+        "shortName": "SCAR-SC 14\"",
+        "description": "A 14 inch (355mm) barrel for the SCAR-SC platform chambered in .300 Blackout. The extended length improves velocity and stability compared to compact CQB barrels. Tony prefers this setup when he wants the SCAR platform to keep its punch while still benefiting from the versatility of the .300 Blackout cartridge."
       }
     },
     "copySlotsInfo": [

@@ -29,9 +29,9 @@
     ],
     "locales": {
       "en": {
-        "Name": "9×19 “Consigliere FMJ”",
-        "ShortName": "CFMJ",
-        "Description": "A privately sourced 9x19mm full metal jacket round assembled through underground manufacturing channels. Optimized for reliable cycling and controllable automatic fire, these cartridges are commonly issued to Tony’s contracted security crews operating in close quarters."
+        "name": "9×19 “Consigliere FMJ”",
+        "shortName": "CFMJ",
+        "description": "A privately sourced 9x19mm full metal jacket round assembled through underground manufacturing channels. Optimized for reliable cycling and controllable automatic fire, these cartridges are commonly issued to Tony’s contracted security crews operating in close quarters."
       }
     },
     "addToStaticAmmo": true,
