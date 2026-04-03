@@ -46,7 +46,7 @@
         "questAssorts": [
             {
                 "traderId": "698f904cd0fa772942d237c7",
-                "questId": "699a84bf8e2052342f79b912",
+                "questId": "6848f1776be936dd22573866",
                 "assortId": "69cd285e585783a45079bde4",
                 "status": "Success"
             }
@@ -54,7 +54,7 @@
         "addToQuestRewards": true,
         "questRewards": [
             {
-                "questId": "699a84bf8e2052342f79b912",
+                "questId": "6848f1776be936dd22573866",
                 "rewardType": "Ammo",
                 "count": 120,
                 "findInRaid": false
