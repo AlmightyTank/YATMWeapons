@@ -70,6 +70,8 @@ public sealed class CustomContentLoader(
 
             var presetPath = Path.Join("db", "CustomWeaponPresets");
 
+            var armorPresetPath = Path.Join("db", "CustomArmorPresets");
+
             YATMLogger.LogDebug("[CustomContentLoader] Loading WTT items...");
 
             foreach (var path in itemPaths)
@@ -84,6 +86,8 @@ public sealed class CustomContentLoader(
 
             await wttCommon.CustomWeaponPresetService.CreateCustomWeaponPresets(assembly, presetPath);
             await commonLibExtendedBootstrap.RegisterWeaponPresets(assembly, presetPath);
+
+            await wttCommon.CustomWeaponPresetService.CreateCustomWeaponPresets(assembly, armorPresetPath);
 
             YATMLogger.Log("[CustomContentLoader] Finished loading WTT items and presets.");
 
