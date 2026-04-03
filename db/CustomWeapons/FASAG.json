@@ -26,83 +26,12 @@
     },
     "fleaPriceRoubles": 17500,
     "handbookPriceRoubles": 12500,
-    "addToPreset": true,
     "locales": {
       "en": {
-        "Name": "AK-545 \"Workshop Predator\"",
-        "ShortName": "AK-545 WP",
-        "Description": "Originally a Sureshot Armament Group AK-545 carbine, a modern 5.45x39 platform. Tony took this standard carbine into his workshop and reworked the internals for full-auto operation, tuned the recoil, and reinforced the gas system. What came out is a compact but vicious full-auto carbine, built for operators who don’t settle for standard rifles. Tony says it’s small, fast, and unforgiving — just like he likes them."
+        "name": "AK-545 \"Workshop Predator\"",
+        "shortName": "AK-545 WP",
+        "description": "Originally a Sureshot Armament Group AK-545 carbine, a modern 5.45x39 platform. Tony took this standard carbine into his workshop and reworked the internals for full-auto operation, tuned the recoil, and reinforced the gas system. What came out is a compact but vicious full-auto carbine, built for operators who don’t settle for standard rifles. Tony says it’s small, fast, and unforgiving — just like he likes them."
       }
-    },
-    "presets": [
-      {
-        "_changeWeaponName": false,
-        "_encyclopedia": "69ac2c9c2564f9bc2ae9157b",
-        "_id": "69ac2c4eaacc695f824711c1",
-        "_name": "AK-545 WP Default",
-        "_parent": "69ac2c9c2564f9bc2ae9157b",
-        "_type": "Preset",
-        "_items": [
-          {
-            "_id": "69ac2c9c2564f9bc2ae9157b",
-            "_tpl": "69ac2c9c2564f9bc2ae9157b"
-          },
-          {
-            "_id": "69ac2c62b86f577dfa8c7f0b",
-            "_tpl": "628b8d83717774443b15e248",
-            "parentId": "69ac2c9c2564f9bc2ae9157b",
-            "slotId": "mod_gas_block"
-          },
-          {
-            "_id": "69ac2c6792ad924c40448149",
-            "_tpl": "628b916469015a4e1711ed8d",
-            "parentId": "69ac2c62b86f577dfa8c7f0b",
-            "slotId": "mod_handguard"
-          },
-          {
-            "_id": "69ac2c6c3dcadbf678460de9",
-            "_tpl": "628b9be6cff66b70c002b14c",
-            "parentId": "69ac2c6792ad924c40448149",
-            "slotId": "mod_reciever"
-          },
-          {
-            "_id": "69ac2c71425f365dd658c3da",
-            "_tpl": "628b9471078f94059a4b9bfb",
-            "parentId": "69ac2c6c3dcadbf678460de9",
-            "slotId": "mod_sight_rear"
-          },
-          {
-            "_id": "69ac2c762b86d82c4047519d",
-            "_tpl": "5943eeeb86f77412d6384f6b",
-            "parentId": "69ac2c9c2564f9bc2ae9157b",
-            "slotId": "mod_muzzle"
-          },
-          {
-            "_id": "69ac2c7b4b56fe0407498364",
-            "_tpl": "5cf50850d7f00c056e24104c",
-            "parentId": "69ac2c9c2564f9bc2ae9157b",
-            "slotId": "mod_pistol_grip"
-          },
-          {
-            "_id": "69ac2c7f6da26236e62b7608",
-            "_tpl": "628b9a40717774443b15e9f2",
-            "parentId": "69ac2c9c2564f9bc2ae9157b",
-            "slotId": "mod_stock_000"
-          },
-          {
-            "_id": "69ac2c84fd4bd54153b6d8df",
-            "_tpl": "55d4ae6c4bdc2d8b2f8b456e",
-            "parentId": "69ac2c7f6da26236e62b7608",
-            "slotId": "mod_stock"
-          },
-          {
-            "_id": "69ac2c8903feb9ddd3676f10",
-            "_tpl": "55d480c04bdc2d1d4e8b456a",
-            "parentId": "69ac2c9c2564f9bc2ae9157b",
-            "slotId": "mod_magazine"
-          }
-        ]
-      }
-    ]
+    }
   }
 }

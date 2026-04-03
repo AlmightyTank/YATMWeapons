@@ -1,0 +1,76 @@
+{
+    "69ae498e8feddd1ba2514cdb": {
+        "_changeWeaponName": false,
+        "_encyclopedia": "69ae498e8feddd1ba2514cdb",
+        "_id": "69ae4a75d8441280566025e8",
+        "_name": "ADAR 300 Default",
+        "_parent": "69c66fcb1a08aa99cffe6f8f",
+        "_type": "Preset",
+        "_items": [
+            {
+                "_id": "69c66fcb1a08aa99cffe6f8f",
+                "_tpl": "69ae498e8feddd1ba2514cdb",
+                "upd": {
+                    "Repairable": {
+                        "MaxDurability": 100,
+                        "Durability": 100
+                    }
+                }
+            },
+            {
+                "_id": "69ae4a78e6bcb8b3d5164c12",
+                "_tpl": "5c0e2ff6d174af02a1659d4a",
+                "parentId": "69c66fcb1a08aa99cffe6f8f",
+                "slotId": "mod_pistol_grip"
+            },
+            {
+                "_id": "69ae4a7ffb8175a2f5294d44",
+                "_tpl": "5aaa5e60e5b5b000140293d6",
+                "parentId": "69c66fcb1a08aa99cffe6f8f",
+                "slotId": "mod_magazine"
+            },
+            {
+                "_id": "69ae4a875309052f10b6b069",
+                "_tpl": "69aed19382d87be40b68ec1d",
+                "parentId": "69c66fcb1a08aa99cffe6f8f",
+                "slotId": "mod_reciever"
+            },
+            {
+                "_id": "69ae4a8c4c947a15642b0eaa",
+                "_tpl": "69aece628025ed5944016230",
+                "parentId": "69ae4a875309052f10b6b069",
+                "slotId": "mod_barrel"
+            },
+            {
+                "_id": "69ae4a924d066f81c67ee9db",
+                "_tpl": "618178aa1cb55961fa0fdc80",
+                "parentId": "69ae4a8c4c947a15642b0eaa",
+                "slotId": "mod_muzzle"
+            },
+            {
+                "_id": "69ae4a984dc726e6dcd059a7",
+                "_tpl": "56eabcd4d2720b66698b4574",
+                "parentId": "69ae4a8c4c947a15642b0eaa",
+                "slotId": "mod_gas_block"
+            },
+            {
+                "_id": "69ae4a9d4593873ca126d92a",
+                "_tpl": "5c0e2f5cd174af02a012cfc9",
+                "parentId": "69ae4a875309052f10b6b069",
+                "slotId": "mod_handguard"
+            },
+            {
+                "_id": "69ae4aa1375b3c824b786b01",
+                "_tpl": "5c0faeddd174af02a962601f",
+                "parentId": "69c66fcb1a08aa99cffe6f8f",
+                "slotId": "mod_stock"
+            },
+            {
+                "_id": "69ae4aa7aa254b4d3b85dc57",
+                "_tpl": "5c0faf68d174af02a96260b8",
+                "parentId": "69c66fcb1a08aa99cffe6f8f",
+                "slotId": "mod_charge"
+            }
+        ]
+    }
+}

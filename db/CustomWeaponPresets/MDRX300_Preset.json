@@ -1,0 +1,52 @@
+{
+    "69ac96767d7ea1307b138ae9": {
+        "_changeWeaponName": false,
+        "_encyclopedia": "69ac96767d7ea1307b138ae9",
+        "_id": "69ac968811d9922413c06ab6",
+        "_name": "MDRX .300 Default",
+        "_parent": "69ac96767d7ea1307b138ae9",
+        "_type": "Preset",
+        "_items": [
+            {
+                "_id": "69ac96767d7ea1307b138ae9",
+                "_tpl": "69ac96767d7ea1307b138ae9",
+                "upd": {
+                    "Repairable": {
+                        "MaxDurability": 100,
+                        "Durability": 100
+                    }
+                }
+            },
+            {
+                "_id": "69ac969ccf9cd00f2bac4dc6",
+                "_tpl": "5dcbd6dddbd3d91b3e5468de",
+                "parentId": "69ac96767d7ea1307b138ae9",
+                "slotId": "mod_pistol_grip"
+            },
+            {
+                "_id": "69ac96a0c89b0b274e0c66bd",
+                "_tpl": "5aaa5dfee5b5b000140293d3",
+                "parentId": "69ac96767d7ea1307b138ae9",
+                "slotId": "mod_magazine"
+            },
+            {
+                "_id": "69ac96a76d198e450ec3ad83",
+                "_tpl": "5dcbd6b46ec07c0c4347a564",
+                "parentId": "69ac96767d7ea1307b138ae9",
+                "slotId": "mod_handguard"
+            },
+            {
+                "_id": "69ac96adf1ee4bcec796d725",
+                "_tpl": "5dcbe9431e1f4616d354987e",
+                "parentId": "69ac96767d7ea1307b138ae9",
+                "slotId": "mod_barrel"
+            },
+            {
+                "_id": "69ac96b2ad9eb6b09d2ddd86",
+                "_tpl": "5dcbe965e4ed22586443a79d",
+                "parentId": "69ac96adf1ee4bcec796d725",
+                "slotId": "mod_muzzle"
+            }
+        ]
+    }
+}
