@@ -1,0 +1,52 @@
+{
+    "69aedca1c08a06dba86cea37": {
+        "_id": "69aed903c70aeac0aee77fe5",
+        "_type": "Preset",
+        "_changeWeaponName": false,
+        "_name": "UNTAR Armor V2 Default",
+        "_parent": "69cfca0fabf611783f9e86d2",
+        "_items": [
+            {
+                "_id": "69cfca0fabf611783f9e86d2",
+                "_tpl": "69aedca1c08a06dba86cea37"
+            },
+            {
+                "_id": "69aeea58454e4ec6b0db737b",
+                "_tpl": "656fa76500d62bcd2e024080",
+                "parentId": "69cfca0fabf611783f9e86d2",
+                "slotId": "Front_plate"
+            },
+            {
+                "_id": "69aeea5b73a954e69ada1b64",
+                "_tpl": "656fa76500d62bcd2e024080",
+                "parentId": "69cfca0fabf611783f9e86d2",
+                "slotId": "Back_plate"
+            },
+            {
+                "_id": "69aed90a1688537337efd3f2",
+                "_tpl": "69aee6a6800f504fc4f9b870",
+                "parentId": "69cfca0fabf611783f9e86d2",
+                "slotId": "Soft_armor_front"
+            },
+            {
+                "_id": "69aed90f438a3a45d2267134",
+                "_tpl": "69aee6ab9cb5227a950ea825",
+                "parentId": "69cfca0fabf611783f9e86d2",
+                "slotId": "Soft_armor_back"
+            },
+            {
+                "_id": "69aed913dd5369984e2253e2",
+                "_tpl": "69aee6a13a9dcdb685a12070",
+                "parentId": "69cfca0fabf611783f9e86d2",
+                "slotId": "Soft_armor_left"
+            },
+            {
+                "_id": "69aed917aa358a994861a9b0",
+                "_tpl": "69aee6fbc6c0d4fee9dfa66b",
+                "parentId": "69cfca0fabf611783f9e86d2",
+                "slotId": "soft_armor_right"
+            }
+        ],
+        "_encyclopedia": "69aedca1c08a06dba86cea37"
+    }
+}
