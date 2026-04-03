@@ -120,7 +120,7 @@
         "questAssorts": [
             {
                 "traderId": "698f904cd0fa772942d237c7",
-                "questId": "699a84bf8e2052342f79b912",
+                "questId": "6848f1776be936dd22573866",
                 "assortId": "69c5659eb7096f2eb9920505",
                 "status": "Success"
             }
@@ -128,7 +128,7 @@
         "addToQuestRewards": false,
         "questRewards": [
             {
-                "questId": "699a84bf8e2052342f79b912",
+                "questId": "6848f1776be936dd22573866",
                 "rewardType": "WeaponPreset",
                 "presetId": "69ae4a75d8441280566025e8"
             }
