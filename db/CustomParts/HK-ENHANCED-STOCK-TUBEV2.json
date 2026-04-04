@@ -1,0 +1,31 @@
+{
+    "69d0a0e7f5a5b72340f729a4": {
+        "itemTplToClone": "5bb20e58d4351e00320205d7",
+        "parentId": "55818a594bdc2db9688b456a",
+        "handbookParentId": "5b5f757486f774093e6cb507",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "Recoil": -2,
+            "Ergonomics": 2,
+            "Slots": []
+        },
+        "fleaPriceRoubles": 4990,
+        "handbookPriceRoubles": 4990,
+        "locales": {
+            "en": {
+                "name": "HK 416 “Stabilized Receiver Extension”",
+                "shortName": "416 S-Ext",
+                "description": "A refined receiver extension for HK 416-based platforms sourced through Tony’s logistics network. While built to mil-spec standards, the assembly has been selected and tuned to reduce recoil impulse and improve handling under sustained fire. Components like this are issued to operators expected to perform without hesitation."
+            }
+        },
+        "addtoModSlots": true,
+        "modSlot": [ "mod_stock" ],
+        "copySlot": true,
+        "copySlotsInfo": [
+            {
+                "id": "5bb20e58d4351e00320205d7",
+                "newSlotName": "mod_stock_000"
+            }
+        ]
+    }
+}
