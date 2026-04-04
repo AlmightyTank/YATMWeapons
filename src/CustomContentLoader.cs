@@ -55,22 +55,18 @@ public sealed class CustomContentLoader(
             var itemPaths = new[]
             {
                 Path.Join("db", "CustomAmmo"),
-                Path.Join("db", "CustomArmor", "BodyArmorBuiltins", "LvL5"),
-                Path.Join("db", "CustomArmor"),
                 Path.Join("db", "CustomParts"),
                 Path.Join("db", "CustomWeapons")
             };
 
             var slotCopyPaths = new[]
             {
-                Path.Join("db", "CustomArmor"),
                 Path.Join("db", "CustomParts"),
                 Path.Join("db", "CustomWeapons")
             };
 
             var presetPath = Path.Join("db", "CustomWeaponPresets");
 
-            var armorPresetPath = Path.Join("db", "CustomArmorPresets");
 
             YATMLogger.LogDebug("[CustomContentLoader] Loading WTT items...");
 
@@ -86,8 +82,6 @@ public sealed class CustomContentLoader(
 
             await wttCommon.CustomWeaponPresetService.CreateCustomWeaponPresets(assembly, presetPath);
             await commonLibExtendedBootstrap.RegisterWeaponPresets(assembly, presetPath);
-
-            await wttCommon.CustomWeaponPresetService.CreateCustomWeaponPresets(assembly, armorPresetPath);
 
             YATMLogger.Log("[CustomContentLoader] Finished loading WTT items and presets.");
 
