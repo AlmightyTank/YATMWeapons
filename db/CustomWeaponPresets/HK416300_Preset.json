@@ -1,0 +1,88 @@
+{
+    "69d045f6098455a254446df6": {
+        "_changeWeaponName": false,
+        "_encyclopedia": "69d045f6098455a254446df6",
+        "_id": "69ac22f9c0d45abeb93140bd",
+        "_name": "416A5 300 Default",
+        "_parent": "69d09d91be3fcb48a47f8bd4",
+        "_type": "Preset",
+        "_items": [
+            {
+                "_id": "69d09d91be3fcb48a47f8bd4",
+                "_tpl": "69d045f6098455a254446df6",
+                "upd": {
+                    "Repairable": {
+                        "MaxDurability": 100,
+                        "Durability": 100
+                    }
+                }
+            },
+            {
+                "_id": "69d09dbc7142afed2a6d0fd8",
+                "_tpl": "5bb20e0ed4351e3bac1212dc",
+                "parentId": "69d09d91be3fcb48a47f8bd4",
+                "slotId": "mod_pistol_grip"
+            },
+            {
+                "_id": "69d09dc32cbf303b003f106e",
+                "_tpl": "5c05413a0db834001c390617",
+                "parentId": "69d09d91be3fcb48a47f8bd4",
+                "slotId": "mod_magazine"
+            },
+            {
+                "_id": "69d09dca6b9c40c202c66230",
+                "_tpl": "69d047db4d32a2c10b7360c2",
+                "parentId": "69d09d91be3fcb48a47f8bd4",
+                "slotId": "mod_reciever"
+            },
+            {
+                "_id": "69d09dd749ba299cdd79e752",
+                "_tpl": "69d0992d06f7bfccf595c27c",
+                "parentId": "69d09dca6b9c40c202c66230",
+                "slotId": "mod_barrel"
+            },
+            {
+                "_id": "69d09de1a1787ec3a336a817",
+                "_tpl": "618178aa1cb55961fa0fdc80",
+                "parentId": "69d09dd749ba299cdd79e752",
+                "slotId": "mod_muzzle"
+            },
+            {
+                "_id": "69d09de925f0c7fcc009e26a",
+                "_tpl": "5bb20dcad4351e3bac1212da",
+                "parentId": "69d09dd749ba299cdd79e752",
+                "slotId": "mod_gas_block"
+            },
+            {
+                "_id": "69d09df599674f526d1406d9",
+                "_tpl": "5bb20de5d4351e0035629e59",
+                "parentId": "69d09dca6b9c40c202c66230",
+                "slotId": "mod_handguard"
+            },
+            {
+                "_id": "69d09dfcd1785e2e6fd8697c",
+                "_tpl": "5bb20e49d4351e3bac1212de",
+                "parentId": "69d09dca6b9c40c202c66230",
+                "slotId": "mod_sight_rear"
+            },
+            {
+                "_id": "69d09e03af06c1780b461652",
+                "_tpl": "69d0a0e7f5a5b72340f729a4",
+                "parentId": "69d09d91be3fcb48a47f8bd4",
+                "slotId": "mod_stock"
+            },
+            {
+                "_id": "69d09e09db844f0aed81d257",
+                "_tpl": "5bb20e70d4351e0035629f8f",
+                "parentId": "69d09e03af06c1780b461652",
+                "slotId": "mod_stock_000"
+            },
+            {
+                "_id": "69d09e106d30396eaf7c4a07",
+                "_tpl": "5bb20dbcd4351e44f824c04e",
+                "parentId": "69d09d91be3fcb48a47f8bd4",
+                "slotId": "mod_charge"
+            }
+        ]
+    }
+}

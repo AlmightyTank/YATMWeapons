@@ -1,0 +1,63 @@
+{
+    "69d047db4d32a2c10b7360c2": {
+        "itemTplToClone": "5bb20d53d4351e4502010a69",
+        "parentId": "55818a304bdc2db5418b457d",
+        "handbookParentId": "5b5f764186f77447ec5d7714",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "Recoil": -1,
+            "Ergonomics": 6,
+            "Accuracy": 0,
+            "Weight": 0.27,
+            "HeatFactor": 0.986,
+            "Slots": [
+                {
+                    "_id": "69d0481faedcf3e913e21920",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "mod_barrel",
+                    "_parent": "69ad7bed44d1099f07e064d9",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "69d0991a02a37df71ad7e318",
+                                    "69d09925a69e8595e65662bd",
+                                    "69d0992d06f7bfccf595c27c",
+                                    "69d09939eca3b6009cd97df8",
+                                    "69d0994a239561b77ba7aed2"
+                                ],
+                                "Shift": 0
+                            }
+                        ]
+                    },
+                    "_proto": "55d30c4c4bdc2db4468b457e",
+                    "_required": true
+                }
+            ]
+        },
+        "fleaPriceRoubles": 6500,
+        "handbookPriceRoubles": 6500,
+        "copySlot": true,
+        "locales": {
+            "en": {
+                "name": "HK 416A5 .300 BLK upper receiver",
+                "shortName": "416A5 BLK",
+                "description": "A modified upper receiver for the HK 416A5 platform, rechambered for .300 Blackout and distributed through Tony’s private armory network. The assembly features a tuned gas system designed to ensure reliable cycling with both subsonic and supersonic loads, particularly in suppressed configurations. Built for controlled, low-signature operation in close and mid-range engagements."
+            }
+        },
+        "copySlotsInfo": [
+            {
+                "id": "5bb20d53d4351e4502010a69",
+                "newSlotName": "mod_scope"
+            },
+            {
+                "id": "5bb20d53d4351e4502010a69",
+                "newSlotName": "mod_sight_rear"
+            },
+            {
+                "id": "5bb20d53d4351e4502010a69",
+                "newSlotName": "mod_handguard"
+            }
+        ]
+    }
+}

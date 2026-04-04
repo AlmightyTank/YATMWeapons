@@ -1,0 +1,33 @@
+{
+    "69d09925a69e8595e65662bd": {
+        "itemTplToClone": "5bb20d92d4351e00853263eb",
+        "parentId": "555ef6e44bdc2de9068b457e",
+        "handbookParentId": "5b5f75c686f774094242f19f",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "Recoil": -3,
+            "Ergonomics": -7,
+            "Slots": []
+        },
+        "fleaPriceRoubles": 24130,
+        "handbookPriceRoubles": 24130,
+        "locales": {
+            "en": {
+                "name": "HK 416 .300 BLK 11 inch barrel",
+                "shortName": "416 BLK 11\"",
+                "description": "An 11 inch (279mm) barrel for HK 416-based weapons chambered in .300 Blackout. Tuned for reliable performance with both subsonic and supersonic loads, this barrel offers a balance between compact handling and consistent ballistic performance in suppressed configurations."
+            }
+        },
+        "copySlot": true,
+        "copySlotsInfo": [
+            {
+                "id": "618168b350224f204c1da4d8",
+                "newSlotName": "mod_muzzle"
+            },
+            {
+                "id": "5c6d85e02e22165df16b81f4",
+                "newSlotName": "mod_gas_block"
+            }
+        ]
+    }
+}

@@ -1,0 +1,134 @@
+{
+    "69d045f6098455a254446df6": {
+        "itemTplToClone": "5bb2475ed4351e00853264e3",
+        "parentId": "5447b5f14bdc2d61278b4567",
+        "handbookParentId": "5b5f78e986f77447ed5636b1",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "Ergonomics": 51,
+            "RecoilCamera": 0.04,
+            "RecoilForceBack": 358,
+            "RecoilForceUp": 125,
+            "RecolDispersion": 10,
+            "RecoilReturnPathDampingHandRotation": 0.48,
+            "DurabilityBurnRatio": 1.10,
+            "HeatFactorGun": 1,
+            "CoolFactorGun": 3.168,
+            "CoolFactorGunMods": 1.015,
+            "HeatFactorByShot": 1.10,
+            "MaxRepairKitDegradation": 0.025,
+            "defAmmo": "6196365d58ef8c428c287da1",
+            "defMagType": "5aaa5e60e5b5b000140293d6",
+            "CanRequireOnRagfair": false,
+            "CanSellOnRagfair": true,
+            "ammoCaliber": "Caliber762x35",
+            "Slots": [
+                {
+                    "_id": "69d0470c8bc36d84c5837ffb",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "mod_reciever",
+                    "_parent": "69d045f6098455a254446df6",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "69d047db4d32a2c10b7360c2"
+                                ],
+                                "Shift": 0
+                            }
+                        ]
+                    },
+                    "_proto": "55d30c4c4bdc2db4468b457e",
+                    "_required": true
+                }
+            ],
+            "Chambers": [
+                {
+                    "_name": "patron_in_weapon",
+                    "_id": "69d0470f5a5c1507397ece51",
+                    "_parent": "69d045f6098455a254446df6",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "6196365d58ef8c428c287da1",
+                                    "6196364158ef8c428c287d9f",
+                                    "619636be6db0f2477964e710",
+                                    "64b8725c4b75259c590fa899",
+                                    "5fd20ff893a8961fc660a954",
+                                    "5fbe3ffdf8b6a877a729ea82"
+                                ],
+                                "Shift": 0
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        "copySlot": true,
+        "fleaPriceRoubles": 21800,
+        "handbookPriceRoubles": 21800,
+        "locales": {
+            "en": {
+                "name": "HK 416A5 .300 BLK “Broker”",
+                "shortName": "416A5-BR",
+                "description": "A modified HK 416A5 chambered in .300 Blackout and distributed through Tony’s private logistics network. The rifle has been reconfigured with a tuned gas system and specialized components to ensure reliable cycling with subsonic and suppressed ammunition. Offering excellent recoil control and handling, this platform is favored by operators tasked with resolving situations quietly and efficiently."
+            }
+        },
+        "copySlotsInfo": [
+            {
+                "id": "5bb2475ed4351e00853264e3",
+                "newSlotName": "mod_pistol_grip"
+            },
+            {
+                "id": "5bb2475ed4351e00853264e3",
+                "newSlotName": "mod_magazine"
+            },
+            {
+                "id": "5bb2475ed4351e00853264e3",
+                "newSlotName": "mod_stock"
+            },
+            {
+                "id": "5bb2475ed4351e00853264e3",
+                "newSlotName": "mod_charge"
+            }
+        ],
+        "addToTraders": true,
+        "presetTraders": {
+            "tony": {
+                "69c5659eb7096f2eb9920505": {
+                    "presetId": "69ae4a75d8441280566025e8",
+                    "loyal_level_items": {
+                        "loyalLevel": 1,
+                        "unlimitedCount": true,
+                        "stackObjectsCount": 999999,
+                        "buyRestrictionMax": 100
+                    },
+                    "barter_scheme": [
+                        {
+                            "template": "5449016a4bdc2d6f028b456f",
+                            "count": 75698
+                        }
+                    ]
+                }
+            }
+        },
+        "addToQuestAssorts": true,
+        "questAssorts": [
+            {
+                "traderId": "698f904cd0fa772942d237c7",
+                "questId": "6848f1776be936dd22573866",
+                "assortId": "69c5659eb7096f2eb9920505",
+                "status": "Success"
+            }
+        ],
+        "addToQuestRewards": false,
+        "questRewards": [
+            {
+                "questId": "6848f1776be936dd22573866",
+                "rewardType": "WeaponPreset",
+                "presetId": "69ae4a75d8441280566025e8"
+            }
+        ]
+    }
+}

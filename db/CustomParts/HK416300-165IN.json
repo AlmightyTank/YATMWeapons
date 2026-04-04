@@ -1,0 +1,33 @@
+{
+    "69d09939eca3b6009cd97df8": {
+        "itemTplToClone": "5bb20da5d4351e0035629dbf",
+        "parentId": "555ef6e44bdc2de9068b457e",
+        "handbookParentId": "5b5f75c686f774094242f19f",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "Recoil": -6,
+            "Ergonomics": -19,
+            "Slots": []
+        },
+        "fleaPriceRoubles": 33500,
+        "handbookPriceRoubles": 33500,
+        "locales": {
+            "en": {
+                "name": "HK 416 .300 BLK 16.5 inch barrel with flip-up front sight",
+                "shortName": "416 BLK 16.5\"",
+                "description": "A 16.5 inch (419mm) barrel for HK 416-based weapons chambered in .300 Blackout. Designed for improved accuracy and reduced recoil impulse, this barrel provides stable performance across a wide range of engagements while maintaining reliable cycling under suppressed conditions."
+            }
+        },
+        "copySlot": true,
+        "copySlotsInfo": [
+            {
+                "id": "618168b350224f204c1da4d8",
+                "newSlotName": "mod_muzzle"
+            },
+            {
+                "id": "5c6d85e02e22165df16b81f4",
+                "newSlotName": "mod_gas_block"
+            }
+        ]
+    }
+}

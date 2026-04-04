@@ -1,0 +1,33 @@
+{
+    "69d0994a239561b77ba7aed2": {
+        "itemTplToClone": "5bb20dadd4351e00367faeff",
+        "parentId": "555ef6e44bdc2de9068b457e",
+        "handbookParentId": "5b5f75c686f774094242f19f",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "Recoil": -8,
+            "Ergonomics": -29,
+            "Slots": []
+        },
+        "fleaPriceRoubles": 37700,
+        "handbookPriceRoubles": 37700,
+        "locales": {
+            "en": {
+                "name": "HK 416 .300 BLK 20 inch barrel with flip-up front sight",
+                "shortName": "416 BLK 20\"",
+                "description": "A 20 inch (505mm) barrel for HK 416-based weapons chambered in .300 Blackout. This extended configuration maximizes velocity and shot stability, offering improved long-range consistency at the cost of handling. Rarely issued, it is typically reserved for specialized roles requiring precision over mobility."
+            }
+        },
+        "copySlot": true,
+        "copySlotsInfo": [
+            {
+                "id": "618168b350224f204c1da4d8",
+                "newSlotName": "mod_muzzle"
+            },
+            {
+                "id": "5c6d85e02e22165df16b81f4",
+                "newSlotName": "mod_gas_block"
+            }
+        ]
+    }
+}

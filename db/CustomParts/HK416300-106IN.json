@@ -1,0 +1,33 @@
+{
+    "69d0991a02a37df71ad7e318": {
+        "itemTplToClone": "5c6d85e02e22165df16b81f4",
+        "parentId": "555ef6e44bdc2de9068b457e",
+        "handbookParentId": "5b5f75c686f774094242f19f",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "Recoil": -2,
+            "Ergonomics": -4,
+            "Slots": []
+        },
+        "fleaPriceRoubles": 21130,
+        "handbookPriceRoubles": 21130,
+        "locales": {
+            "en": {
+                "name": "HK 416 .300 BLK 10.6 inch barrel",
+                "shortName": "416 BLK 10.6\"",
+                "description": "A 10.6 inch (264mm) barrel for HK 416-based weapons, rechambered for .300 Blackout. This compact configuration is optimized for suppressed operation and close-quarters engagements, offering improved control and reliable cycling with subsonic ammunition. Distributed through Tony’s private armory network."
+            }
+        },
+        "copySlot": true,
+        "copySlotsInfo": [
+            {
+                "id": "618168b350224f204c1da4d8",
+                "newSlotName": "mod_muzzle"
+            },
+            {
+                "id": "5c6d85e02e22165df16b81f4",
+                "newSlotName": "mod_gas_block"
+            }
+        ]
+    }
+}
