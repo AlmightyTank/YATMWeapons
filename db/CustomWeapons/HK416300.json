@@ -96,8 +96,8 @@
         "addToTraders": true,
         "presetTraders": {
             "tony": {
-                "69c5659eb7096f2eb9920505": {
-                    "presetId": "69ae4a75d8441280566025e8",
+                "69d0ae38e19e61619791cd3c": {
+                    "presetId": "69ac22f9c0d45abeb93140bd",
                     "loyal_level_items": {
                         "loyalLevel": 1,
                         "unlimitedCount": true,
@@ -117,17 +117,17 @@
         "questAssorts": [
             {
                 "traderId": "698f904cd0fa772942d237c7",
-                "questId": "6848f1776be936dd22573866",
-                "assortId": "69c5659eb7096f2eb9920505",
+                "questId": "684edc10a8af5086d3e6557b",
+                "assortId": "69d0ae38e19e61619791cd3c",
                 "status": "Success"
             }
         ],
         "addToQuestRewards": false,
         "questRewards": [
             {
-                "questId": "6848f1776be936dd22573866",
+                "questId": "684edc10a8af5086d3e6557b",
                 "rewardType": "WeaponPreset",
-                "presetId": "69ae4a75d8441280566025e8"
+                "presetId": "69ac22f9c0d45abeb93140bd"
             }
         ]
     }
