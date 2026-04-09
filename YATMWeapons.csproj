@@ -23,24 +23,13 @@
 	<PackageReference Include="WTT-ServerCommonLib" Version="2.0.15" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="config\**" Exclude="config\**\*.cs">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <Content Remove="config\settings.json" />
     <None Include="package.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
   </ItemGroup>
 	<ItemGroup>
-		<Reference Include="CommonLibExtended">
-			<HintPath>..\..\SPT\SPT\user\mods\CommonLibExtended\CommonLibExtended.dll</HintPath>
-		</Reference>
+		<ProjectReference Include="..\CommonCore\CommonLibExtended.csproj" />
 	</ItemGroup>
-  <ItemGroup>
-    <None Update="config\settings.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-  </ItemGroup>
 
   <Target Name="PostBuild" AfterTargets="Build">
     <Exec Command="&quot;$(ProjectDir)build\deploy.cmd&quot; $(AssemblyName) &quot;$(TargetDir)&quot; &quot;$(ProjectDir)&quot;" />
