@@ -101,13 +101,13 @@
             "tony": {
                 "69c5659eb7096f2eb9920505": {
                     "presetId": "69ae4a75d8441280566025e8",
-                    "loyal_level_items": {
+                    "barterSettings": {
                         "loyalLevel": 1,
                         "unlimitedCount": true,
                         "stackObjectsCount": 999999,
                         "buyRestrictionMax": 100
                     },
-                    "barter_scheme": [
+                    "barters": [
                         {
                             "_tpl": "5449016a4bdc2d6f028b456f",
                             "count": 75698
