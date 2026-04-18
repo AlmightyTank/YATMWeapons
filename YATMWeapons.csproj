@@ -28,7 +28,7 @@
     </None>
   </ItemGroup>
 	<ItemGroup>
-		<ProjectReference Include="..\CommonCore\CommonLibExtended.csproj" />
+		<ProjectReference Include="..\CommonLibExtended\CommonLibExtended.csproj" />
 	</ItemGroup>
 
   <Target Name="PostBuild" AfterTargets="Build">
